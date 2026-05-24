@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Award, Handshake, BadgeCheck, HeartHandshake, Lightbulb } from "lucide-react";
+import { Reveal, RevealStagger, RevealItem } from "@/components/site/reveal";
 
 const ITEMS = [
   { key: "expertise", Icon: Award },
@@ -13,30 +14,52 @@ export function WhyChoose() {
   const t = useTranslations("why");
 
   return (
-    <section id="why" className="bg-cream-100 py-20 md:py-28">
+    <section id="why" className="bg-white pt-10 pb-20 md:pt-14 md:pb-28">
       <div className="container-section">
-        <div className="text-center">
+        <Reveal className="text-center">
           <p className="section-eyebrow">{t("eyebrow")}</p>
-          <h2 className="mt-4 mx-auto max-w-2xl text-balance font-display text-3xl font-semibold leading-[1.15] text-ink-700 md:text-4xl">
-            {t("title")}
+          <span
+            aria-hidden
+            className="mx-auto mt-2 block h-px w-40 bg-gold-500"
+          />
+          <h2 className="mt-6 mx-auto max-w-3xl text-balance font-display text-4xl font-semibold leading-[1.1] text-ink-800 md:text-5xl lg:text-6xl">
+            {t.rich("title", {
+              highlight: (chunks) => (
+                <span className="text-gold-600">{chunks}</span>
+              ),
+            })}
           </h2>
-        </div>
+          <p className="mt-6 mx-auto max-w-2xl text-pretty text-sm leading-relaxed text-ink-500 md:text-base">
+            {t("subtitle")}
+          </p>
+        </Reveal>
 
-        <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 md:mt-16 md:grid-cols-3 lg:grid-cols-5">
+        <RevealStagger className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-6 sm:grid-cols-2 md:mt-16 md:grid-cols-3 lg:grid-cols-5">
           {ITEMS.map(({ key, Icon }) => (
-            <div key={key} className="group text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center text-gold-500 transition-transform group-hover:scale-110">
-                <Icon className="h-10 w-10" strokeWidth={1.4} />
+            <RevealItem
+              key={key}
+              className="group relative flex flex-col items-center rounded-md border border-gold-200/40 bg-white px-5 pt-8 pb-7 text-center shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+            >
+              <div className="flex h-16 w-16 items-center justify-center rounded-full border border-gold-300/70 bg-white text-gold-500">
+                <Icon className="h-8 w-8" strokeWidth={1.3} />
               </div>
-              <h3 className="mt-4 font-display text-sm font-semibold uppercase tracking-wider text-ink-700">
+              <span
+                aria-hidden
+                className="mt-1 block h-4 w-px bg-gold-300/70"
+              />
+              <h3 className="mt-2 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink-800">
                 {t(`items.${key}.title`)}
               </h3>
-              <p className="mt-3 text-xs leading-relaxed text-ink-400 md:text-sm">
+              <p className="mt-4 text-sm leading-relaxed text-ink-500">
                 {t(`items.${key}.description`)}
               </p>
-            </div>
+              <span
+                aria-hidden
+                className="mt-6 block h-px w-8 bg-gold-500"
+              />
+            </RevealItem>
           ))}
-        </div>
+        </RevealStagger>
       </div>
     </section>
   );

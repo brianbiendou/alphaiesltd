@@ -11,7 +11,7 @@ export function Hero() {
       className="relative isolate flex min-h-[85svh] flex-col overflow-hidden md:min-h-[70svh] md:flex-row md:items-center"
     >
       <Image
-        src="/images/hero/heromobile.png"
+        src="/images/hero/heromobile.webp"
         alt=""
         fill
         priority
@@ -20,7 +20,7 @@ export function Hero() {
         className="-z-10 object-cover object-top md:hidden"
       />
       <Image
-        src="/images/hero/hero.png"
+        src="/images/hero/hero.webp"
         alt=""
         fill
         priority
@@ -33,7 +33,7 @@ export function Hero() {
         className="-z-10 absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-cream-100"
       />
 
-      <div className="flex w-full flex-1 flex-col pl-6 pr-6 pt-20 pb-10 sm:pl-10 md:flex-none md:pt-28 md:pb-28 lg:pl-64 lg:pr-12">
+      <div className="flex w-full flex-1 flex-col pl-6 pr-6 pt-40 pb-10 sm:pl-10 md:flex-none md:pt-28 md:pb-28 lg:pl-64 lg:pr-12">
         <div className="relative flex max-w-3xl flex-1 flex-col md:flex-none">
           <div
             aria-hidden
@@ -53,7 +53,7 @@ export function Hero() {
             {t("description")}
           </p>
           <a
-            href="#about"
+            href="#contact"
             className="group mt-auto inline-flex w-fit items-center gap-2 rounded-sm bg-gold-500 px-7 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-white shadow-lg transition-colors hover:bg-gold-600 md:mt-10"
           >
             {t("cta")}

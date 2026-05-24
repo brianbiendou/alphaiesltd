@@ -26,7 +26,7 @@ export function Footer() {
       <div className="container-section grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1.4fr_1fr]">
         <div>
           <Image
-            src="/images/logo/logo.png"
+            src="/images/logo/logo.webp"
             alt="Alpha IES Ltd"
             width={200}
             height={72}

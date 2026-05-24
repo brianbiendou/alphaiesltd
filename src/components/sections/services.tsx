@@ -7,36 +7,37 @@ import {
   ShieldAlert,
   Truck,
 } from "lucide-react";
+import { Reveal, RevealStagger, RevealItem } from "@/components/site/reveal";
 
 const SERVICES = [
   {
     key: "trading",
     Icon: HandCoins,
-    image: "/images/section3/trading sourcing.png",
+    image: "/images/section3/trading sourcing.webp",
     number: "01",
   },
   {
     key: "supply",
     Icon: Boxes,
-    image: "/images/section3/supply chain.png",
+    image: "/images/section3/supply chain.webp",
     number: "02",
   },
   {
     key: "intelligence",
     Icon: LineChart,
-    image: "/images/section3/market intelligence.png",
+    image: "/images/section3/market intelligence.webp",
     number: "03",
   },
   {
     key: "risk",
     Icon: ShieldAlert,
-    image: "/images/section3/risk management.png",
+    image: "/images/section3/risk management.webp",
     number: "04",
   },
   {
     key: "logistics",
     Icon: Truck,
-    image: "/images/section3/logistic solutions.png",
+    image: "/images/section3/logistic solutions.webp",
     number: "05",
   },
 ] as const;
@@ -45,9 +46,9 @@ export function Services() {
   const t = useTranslations("services");
 
   return (
-    <section id="services" className="bg-cream-100 pt-8 pb-20 md:pt-12 md:pb-28">
+    <section id="services" className="bg-white pt-8 pb-20 md:pt-12 md:pb-28">
       <div className="container-section">
-        <div className="text-center">
+        <Reveal className="text-center">
           <p className="section-eyebrow">{t("eyebrow")}</p>
           <span
             aria-hidden
@@ -63,11 +64,11 @@ export function Services() {
           <p className="mx-auto mt-6 max-w-2xl text-pretty leading-relaxed text-ink-500">
             {t("subtitle")}
           </p>
-        </div>
+        </Reveal>
 
-        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mt-16 md:grid-cols-3 lg:grid-cols-5">
+        <RevealStagger className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mt-16 md:grid-cols-3 lg:grid-cols-5">
           {SERVICES.map(({ key, Icon, image, number }) => (
-            <article
+            <RevealItem
               key={key}
               className="group relative flex flex-col overflow-hidden rounded-md border border-gold-200/40 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
             >
@@ -101,9 +102,9 @@ export function Services() {
                   {number}
                 </span>
               </div>
-            </article>
+            </RevealItem>
           ))}
-        </div>
+        </RevealStagger>
       </div>
     </section>
   );

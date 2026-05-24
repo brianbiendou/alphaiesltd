@@ -103,7 +103,8 @@
   },
   "why": {
     "eyebrow": "Pourquoi Choisir Alpha IES Ltd ?",
-    "title": "Des Partenaires Sur Qui Construire",
+    "title": "Des Partenaires Sur Qui <highlight>Construire</highlight>",
+    "subtitle": "Nous combinons expertise sectorielle, partenariats internationaux et un engagement envers l'excellence pour créer de la valeur à long terme pour nos partenaires.",
     "items": {
       "expertise": {
         "title": "Expertise Sectorielle",

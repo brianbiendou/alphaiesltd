@@ -103,7 +103,8 @@
   },
   "why": {
     "eyebrow": "Why Choose Alpha IES Ltd?",
-    "title": "Partners You Can Build On",
+    "title": "Partners You Can <highlight>Build On</highlight>",
+    "subtitle": "We combine industry expertise, global partnerships, and a commitment to excellence to create long-term value for our partners.",
     "items": {
       "expertise": {
         "title": "Industry Expertise",

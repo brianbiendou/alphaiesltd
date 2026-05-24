@@ -61,20 +61,11 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       locale: locale === "fr" ? "fr_FR" : "en_US",
-      images: [
-        {
-          url: "/images/hero/hero.png",
-          width: 1920,
-          height: 800,
-          alt: SITE_NAME,
-        },
-      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["/images/hero/hero.png"],
     },
     robots: {
       index: true,
@@ -86,9 +77,6 @@ export async function generateMetadata({
         "max-snippet": -1,
         "max-video-preview": -1,
       },
-    },
-    icons: {
-      icon: "/favicon.ico",
     },
   };
 }
@@ -123,7 +111,7 @@ export default async function LocaleLayout({
                 "@id": `${SITE_URL}#organization`,
                 name: SITE_NAME,
                 url: SITE_URL,
-                logo: `${SITE_URL}/images/logo/logo.png`,
+                logo: `${SITE_URL}/images/logo/logo.webp`,
                 description:
                   "Strategic minerals trading and sourcing company connecting resources with global opportunities.",
                 address: {

@@ -51,16 +51,16 @@ export function Header() {
         aria-label={`${t("home")} — Alpha IES Ltd`}
       >
         <Image
-          src="/images/logo/logo.png"
+          src="/images/logo/logo.webp"
           alt="Alpha IES Ltd logo"
           width={240}
           height={86}
           priority
-          className="h-12 w-auto md:h-24 lg:h-24 xl:h-28"
+          className="h-[5.5rem] w-auto md:h-24 lg:h-24 xl:h-28"
         />
       </a>
 
-      <div className="flex h-14 w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
+      <div className="flex h-24 w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
         <div className="flex items-center gap-4 xl:gap-7">
           <nav
             aria-label="Primary"
@@ -96,47 +96,55 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="fixed inset-0 z-[60] flex flex-col bg-ink-800 lg:hidden">
-          <div className="container-section flex h-20 items-center justify-between">
-            <Image
-              src="/images/logo/logo.png"
-              alt="Alpha IES Ltd logo"
-              width={180}
-              height={64}
-              className="h-12 w-auto brightness-0 invert"
-            />
-            <button
-              type="button"
-              onClick={() => setOpen(false)}
-              className="text-white"
-              aria-label={t("close")}
-            >
-              <X className="h-7 w-7" strokeWidth={1.5} />
-            </button>
-          </div>
-          <nav
-            aria-label="Mobile"
-            className="container-section flex flex-1 flex-col items-start gap-6 pt-12"
-          >
-            {SECTIONS.map((s) => (
-              <a
-                key={s.id}
-                href={`#${s.id}`}
+        <>
+          <button
+            type="button"
+            onClick={() => setOpen(false)}
+            aria-label={t("close")}
+            className="fixed inset-0 z-[59] bg-black/40 lg:hidden"
+          />
+          <div className="fixed inset-y-0 right-0 z-[60] flex w-1/2 min-w-[15rem] flex-col bg-white shadow-2xl lg:hidden">
+            <div className="flex h-20 items-center justify-between px-5">
+              <Image
+                src="/images/logo/logo.webp"
+                alt="Alpha IES Ltd logo"
+                width={180}
+                height={64}
+                className="h-10 w-auto"
+              />
+              <button
+                type="button"
                 onClick={() => setOpen(false)}
-                className="font-display text-3xl text-cream-100 transition-colors hover:text-gold-400"
+                className="text-ink-700"
+                aria-label={t("close")}
               >
-                {t(s.key)}
-              </a>
-            ))}
-            <a
-              href="#contact"
-              onClick={() => setOpen(false)}
-              className="mt-6 rounded-sm bg-gold-500 px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-white"
+                <X className="h-7 w-7" strokeWidth={1.5} />
+              </button>
+            </div>
+            <nav
+              aria-label="Mobile"
+              className="flex flex-1 flex-col items-start gap-5 px-5 pt-8"
             >
-              {t("cta")}
-            </a>
-          </nav>
-        </div>
+              {SECTIONS.map((s) => (
+                <a
+                  key={s.id}
+                  href={`#${s.id}`}
+                  onClick={() => setOpen(false)}
+                  className="font-display text-2xl text-ink-800 transition-colors hover:text-gold-600"
+                >
+                  {t(s.key)}
+                </a>
+              ))}
+              <a
+                href="#contact"
+                onClick={() => setOpen(false)}
+                className="mt-6 rounded-sm bg-gold-500 px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-white shadow-sm transition-colors hover:bg-gold-600"
+              >
+                {t("cta")}
+              </a>
+            </nav>
+          </div>
+        </>
       )}
     </header>
   );

@@ -6,7 +6,6 @@ import { Services } from "@/components/sections/services";
 import { Commodities } from "@/components/sections/commodities";
 import { Markets } from "@/components/sections/markets";
 import { WhyChoose } from "@/components/sections/why-choose";
-import { News } from "@/components/sections/news";
 import { Contact } from "@/components/sections/contact";
 import { Footer } from "@/components/site/footer";
 
@@ -28,7 +27,6 @@ export default async function HomePage({
         <Commodities />
         <Markets />
         <WhyChoose />
-        <News />
         <Contact />
       </main>
       <Footer />

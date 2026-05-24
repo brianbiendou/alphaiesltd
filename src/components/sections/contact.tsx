@@ -4,6 +4,7 @@ import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { CONTACT } from "@/lib/utils";
+import { Reveal } from "@/components/site/reveal";
 
 export function Contact() {
   const t = useTranslations("contact");
@@ -15,10 +16,10 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-cream-200 py-20 md:py-28">
+    <section id="contact" className="bg-white py-20 md:py-28">
       <div className="container-section">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
-          <div>
+          <Reveal>
             <p className="section-eyebrow">{t("eyebrow")}</p>
             <h2 className="mt-4 text-balance font-display text-4xl font-semibold leading-[1.1] text-ink-700 md:text-5xl">
               {t("title")}
@@ -60,8 +61,9 @@ export function Contact() {
                 </a>
               </li>
             </ul>
-          </div>
+          </Reveal>
 
+          <Reveal delay={0.15}>
           <form
             onSubmit={handleSubmit}
             className="rounded-md bg-white p-6 shadow-sm md:p-10"
@@ -106,6 +108,7 @@ export function Contact() {
               </div>
             )}
           </form>
+          </Reveal>
         </div>
       </div>
     </section>

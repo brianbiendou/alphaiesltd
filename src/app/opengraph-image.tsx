@@ -47,17 +47,19 @@ export default function OG() {
             flexWrap: "wrap",
           }}
         >
-          Adding Value at Every Step.
+          Powering Industries.
         </div>
         <div
           style={{
-            fontSize: 36,
+            fontSize: 56,
+            lineHeight: 1.02,
+            fontWeight: 600,
+            letterSpacing: -1,
             color: "#c9a553",
-            fontStyle: "italic",
             display: "flex",
           }}
         >
-          Delivering Results That Last.
+          Through Strategic Minerals.
         </div>
         <div
           style={{

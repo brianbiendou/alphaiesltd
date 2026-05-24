@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #faf5ea;
+  --color-gold-100: #f3e6c4;
+  --color-gold-200: #e8d39a;
+  --color-gold-300: #d9bb6d;
+  --color-gold-400: #c9a553;
+  --color-gold-500: #b8924c;
+  --color-gold-600: #9e7a3c;
+  --color-gold-700: #7e6030;
+  --color-gold-800: #5e4724;
+  --color-gold-900: #3f2f18;
+
+  --color-cream-50: #faf5ea;
+  --color-cream-100: #f6efde;
+  --color-cream-200: #f1e7cd;
+  --color-cream-300: #ead8b3;
+
+  --color-ink-50: #f5f5f5;
+  --color-ink-100: #e0e0e0;
+  --color-ink-200: #b8b8b8;
+  --color-ink-300: #8a8a8a;
+  --color-ink-400: #5e5e5e;
+  --color-ink-500: #3a3a3a;
+  --color-ink-600: #262626;
+  --color-ink-700: #1a1a1a;
+  --color-ink-800: #111114;
+  --color-ink-900: #08080a;
+
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --breakpoint-3xl: 1920px;
+}
+
+@layer base {
+  :root {
+    --background: #f6efde;
+    --foreground: #1a1a1a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 128px;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-gold-500);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .container-section {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-section {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .section-eyebrow {
+    color: var(--color-gold-500);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+}

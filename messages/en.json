@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Alpha IES Ltd — Strategic Minerals Trading & Sourcing",
+    "description": "Alpha IES Ltd is a strategic minerals trading and sourcing company committed to connecting resources with global opportunities. Lithium, Cobalt, Nickel, Manganese and more.",
+    "keywords": "strategic minerals, minerals trading, lithium sourcing, cobalt sourcing, nickel sourcing, manganese, rare earths, graphite, supply chain, commodity trading, Alpha IES Ltd, Dublin Ireland"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "commodities": "Our Commodities",
+    "markets": "Our Markets",
+    "sustainability": "Sustainability",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Get in Touch",
+    "menu": "Open menu",
+    "close": "Close menu"
+  },
+  "hero": {
+    "title": "Powering Industries.<br></br>Through <highlight>Strategic Minerals.</highlight>",
+    "description": "Strategic sourcing and international trading solutions for critical minerals driving the future.",
+    "cta": "Request a Partnership"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Strategic Minerals. Global Impact.",
+    "paragraph1": "Alpha IES Ltd specializes in the trading and sourcing of strategic minerals essential for the world's most critical industries.",
+    "paragraph2": "We combine deep market intelligence, reliable logistics, and strong partnerships to deliver value at every stage of the supply chain.",
+    "cta": "Learn More",
+    "features": {
+      "global": {
+        "title": "Global Network",
+        "description": "Strong presence across key markets"
+      },
+      "trust": {
+        "title": "Trust & Integrity",
+        "description": "Committed to ethical and transparent practices"
+      },
+      "expert": {
+        "title": "Expert Team",
+        "description": "Industry professionals delivering excellence"
+      },
+      "sustainable": {
+        "title": "Sustainable Growth",
+        "description": "Creating long-term value for all stakeholders"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "End-to-End Solutions for the Mineral Supply Chain",
+    "items": {
+      "trading": {
+        "title": "Trading & Sourcing",
+        "description": "Reliable access to high-quality strategic minerals."
+      },
+      "supply": {
+        "title": "Supply Chain Management",
+        "description": "End-to-end solutions from origin to destination."
+      },
+      "intelligence": {
+        "title": "Market Intelligence",
+        "description": "Actionable insights for smarter decisions."
+      },
+      "risk": {
+        "title": "Risk Management",
+        "description": "Minimizing risks, maximising opportunities."
+      },
+      "logistics": {
+        "title": "Logistics Solutions",
+        "description": "Efficient and secure global delivery."
+      }
+    }
+  },
+  "commodities": {
+    "eyebrow": "Our Commodities",
+    "title": "Strategic Minerals We Trade",
+    "subtitle": "Critical raw materials powering the energy transition, electronics, aerospace and high-tech industries.",
+    "items": {
+      "lithium": "Lithium",
+      "cobalt": "Cobalt",
+      "nickel": "Nickel",
+      "manganese": "Manganese",
+      "chromium": "Chromium",
+      "rareEarths": "Rare Earths",
+      "graphite": "Graphite"
+    },
+    "viewAll": "View All Commodities"
+  },
+  "markets": {
+    "eyebrow": "Our Markets",
+    "title": "A Truly Global Presence",
+    "subtitle": "Operating across key mineral-producing and consuming regions worldwide.",
+    "regions": {
+      "africa": "Africa",
+      "europe": "Europe",
+      "northAmerica": "North America",
+      "southAmerica": "South America",
+      "middleEast": "Middle East"
+    }
+  },
+  "why": {
+    "eyebrow": "Why Choose Alpha IES Ltd?",
+    "title": "Partners You Can Build On",
+    "items": {
+      "expertise": {
+        "title": "Industry Expertise",
+        "description": "Years of experience in strategic minerals."
+      },
+      "partnerships": {
+        "title": "Strong Partnerships",
+        "description": "Building lasting relationships worldwide."
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "Commitment to the highest standards."
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "Tailored solutions for your needs."
+      },
+      "innovation": {
+        "title": "Innovation Driven",
+        "description": "Smart strategies for a changing world."
+      }
+    }
+  },
+  "news": {
+    "eyebrow": "Latest News & Insights",
+    "title": "Industry Perspectives",
+    "readMore": "Read More",
+    "items": {
+      "energy": {
+        "date": "May 15, 2024",
+        "title": "The Future of Strategic Minerals in a Clean Energy World",
+        "excerpt": "How critical minerals are powering the global energy transition and reshaping supply chains."
+      },
+      "supply": {
+        "date": "April 22, 2024",
+        "title": "How Supply Chain Resilience Drives Global Growth",
+        "excerpt": "Lessons learned from recent disruptions and how diversified sourcing builds long-term advantage."
+      },
+      "africa": {
+        "date": "March 10, 2024",
+        "title": "Alpha IES Ltd Expands Presence in Key African Markets",
+        "excerpt": "New partnerships across the continent strengthen our position in upstream mineral sourcing."
+      },
+      "outlook": {
+        "date": "February 5, 2024",
+        "title": "Market Outlook: Key Minerals to Watch in 2024",
+        "excerpt": "Our analysts share their views on demand, pricing and strategic positioning for the year ahead."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's Build Something Lasting.",
+    "subtitle": "Reach out to discuss sourcing, trading or partnership opportunities.",
+    "address": "Pad 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Ireland",
+    "phone": "+33 7 58 86 71 52",
+    "email": "happieelvira@alphaiesltd.com",
+    "form": {
+      "name": "Full name",
+      "emailLabel": "Email address",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thanks — we'll get back to you shortly."
+    }
+  },
+  "footer": {
+    "tagline": "Adding value at every step. Delivering results that last.",
+    "quickLinks": "Quick Links",
+    "company": "Company",
+    "contactTitle": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "© {year} Alpha IES Ltd. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}

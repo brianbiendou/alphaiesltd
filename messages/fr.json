@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Alpha IES Ltd — Négoce et Sourcing de Minéraux Stratégiques",
+    "description": "Alpha IES Ltd est une société de négoce et de sourcing de minéraux stratégiques, qui connecte les ressources aux opportunités mondiales. Lithium, Cobalt, Nickel, Manganèse et plus encore.",
+    "keywords": "minéraux stratégiques, négoce de minéraux, sourcing lithium, sourcing cobalt, sourcing nickel, manganèse, terres rares, graphite, supply chain, trading matières premières, Alpha IES Ltd, Dublin Irlande"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Nos Services",
+    "commodities": "Nos Minéraux",
+    "markets": "Nos Marchés",
+    "sustainability": "Durabilité",
+    "news": "Actualités",
+    "contact": "Contact",
+    "cta": "Nous Contacter",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu"
+  },
+  "hero": {
+    "title": "Alimenter les Industries.<br></br>Par les <highlight>Minéraux Stratégiques.</highlight>",
+    "description": "Sourcing stratégique et solutions de négoce international pour les minéraux critiques qui façonnent l'avenir.",
+    "cta": "Demander un Partenariat"
+  },
+  "about": {
+    "eyebrow": "À Propos",
+    "title": "Minéraux Stratégiques. Impact Global.",
+    "paragraph1": "Alpha IES Ltd est spécialisée dans le négoce et le sourcing des minéraux stratégiques essentiels aux industries les plus critiques au monde.",
+    "paragraph2": "Nous combinons une expertise marché approfondie, une logistique fiable et des partenariats solides pour créer de la valeur à chaque étape de la chaîne d'approvisionnement.",
+    "cta": "En Savoir Plus",
+    "features": {
+      "global": {
+        "title": "Réseau Mondial",
+        "description": "Une présence forte sur les marchés clés"
+      },
+      "trust": {
+        "title": "Confiance & Intégrité",
+        "description": "Engagés dans des pratiques éthiques et transparentes"
+      },
+      "expert": {
+        "title": "Équipe Experte",
+        "description": "Des professionnels qui livrent l'excellence"
+      },
+      "sustainable": {
+        "title": "Croissance Durable",
+        "description": "Créer de la valeur à long terme pour tous"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Nos Services",
+    "title": "Des Solutions de Bout en Bout pour la Chaîne Minérale",
+    "items": {
+      "trading": {
+        "title": "Négoce & Sourcing",
+        "description": "Accès fiable à des minéraux stratégiques de haute qualité."
+      },
+      "supply": {
+        "title": "Supply Chain",
+        "description": "Solutions complètes, de l'origine à la destination."
+      },
+      "intelligence": {
+        "title": "Intelligence Marché",
+        "description": "Des informations actionnables pour de meilleures décisions."
+      },
+      "risk": {
+        "title": "Gestion des Risques",
+        "description": "Minimiser les risques, maximiser les opportunités."
+      },
+      "logistics": {
+        "title": "Solutions Logistiques",
+        "description": "Livraison mondiale efficace et sécurisée."
+      }
+    }
+  },
+  "commodities": {
+    "eyebrow": "Nos Minéraux",
+    "title": "Minéraux Stratégiques que Nous Négocions",
+    "subtitle": "Matières premières critiques qui alimentent la transition énergétique, l'électronique, l'aéronautique et les industries de pointe.",
+    "items": {
+      "lithium": "Lithium",
+      "cobalt": "Cobalt",
+      "nickel": "Nickel",
+      "manganese": "Manganèse",
+      "chromium": "Chrome",
+      "rareEarths": "Terres Rares",
+      "graphite": "Graphite"
+    },
+    "viewAll": "Voir Tous les Minéraux"
+  },
+  "markets": {
+    "eyebrow": "Nos Marchés",
+    "title": "Une Présence Réellement Mondiale",
+    "subtitle": "Présents sur les principales régions productrices et consommatrices de minéraux.",
+    "regions": {
+      "africa": "Afrique",
+      "europe": "Europe",
+      "northAmerica": "Amérique du Nord",
+      "southAmerica": "Amérique du Sud",
+      "middleEast": "Moyen-Orient"
+    }
+  },
+  "why": {
+    "eyebrow": "Pourquoi Choisir Alpha IES Ltd ?",
+    "title": "Des Partenaires Sur Qui Construire",
+    "items": {
+      "expertise": {
+        "title": "Expertise Sectorielle",
+        "description": "Des années d'expérience dans les minéraux stratégiques."
+      },
+      "partnerships": {
+        "title": "Partenariats Solides",
+        "description": "Bâtir des relations durables dans le monde entier."
+      },
+      "quality": {
+        "title": "Assurance Qualité",
+        "description": "Engagement envers les plus hauts standards."
+      },
+      "customer": {
+        "title": "Orienté Client",
+        "description": "Des solutions sur mesure pour vos besoins."
+      },
+      "innovation": {
+        "title": "Tournés vers l'Innovation",
+        "description": "Des stratégies intelligentes pour un monde en mutation."
+      }
+    }
+  },
+  "news": {
+    "eyebrow": "Actualités & Analyses",
+    "title": "Perspectives Sectorielles",
+    "readMore": "Lire la suite",
+    "items": {
+      "energy": {
+        "date": "15 mai 2024",
+        "title": "L'Avenir des Minéraux Stratégiques dans un Monde d'Énergie Propre",
+        "excerpt": "Comment les minéraux critiques alimentent la transition énergétique mondiale et redessinent les chaînes d'approvisionnement."
+      },
+      "supply": {
+        "date": "22 avril 2024",
+        "title": "Comment la Résilience de la Supply Chain Stimule la Croissance",
+        "excerpt": "Les leçons des récentes perturbations et comment un sourcing diversifié devient un avantage durable."
+      },
+      "africa": {
+        "date": "10 mars 2024",
+        "title": "Alpha IES Ltd Renforce sa Présence sur les Marchés Africains",
+        "excerpt": "De nouveaux partenariats à travers le continent consolident notre position dans le sourcing amont."
+      },
+      "outlook": {
+        "date": "5 février 2024",
+        "title": "Perspectives Marché : Minéraux à Surveiller en 2024",
+        "excerpt": "Nos analystes partagent leurs vues sur la demande, les prix et le positionnement stratégique pour l'année."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Construisons Quelque Chose qui Dure.",
+    "subtitle": "Contactez-nous pour discuter sourcing, négoce ou partenariats.",
+    "address": "Pad 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Irlande",
+    "phone": "+33 7 58 86 71 52",
+    "email": "happieelvira@alphaiesltd.com",
+    "form": {
+      "name": "Nom complet",
+      "emailLabel": "Adresse email",
+      "company": "Entreprise",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Merci — nous reviendrons vers vous rapidement."
+    }
+  },
+  "footer": {
+    "tagline": "Créer de la valeur à chaque étape. Des résultats qui durent.",
+    "quickLinks": "Liens Rapides",
+    "company": "Entreprise",
+    "contactTitle": "Contactez-nous",
+    "followUs": "Suivez-nous",
+    "rights": "© {year} Alpha IES Ltd. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions Générales"
+  }
+}

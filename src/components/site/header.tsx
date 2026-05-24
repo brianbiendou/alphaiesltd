@@ -47,7 +47,7 @@ export function Header() {
     >
       <a
         href={homeHref}
-        className="absolute left-40 -top-6 z-10 flex items-center sm:left-44 lg:left-46"
+        className="absolute left-6 top-1/2 z-10 flex -translate-y-1/2 items-center sm:left-10 md:left-12 md:translate-y-0 md:top-0 lg:left-16 lg:-top-2 xl:left-44 xl:-top-6 2xl:left-46"
         aria-label={`${t("home")} — Alpha IES Ltd`}
       >
         <Image
@@ -56,15 +56,15 @@ export function Header() {
           width={240}
           height={86}
           priority
-          className="h-24 w-auto md:h-28"
+          className="h-12 w-auto md:h-24 lg:h-24 xl:h-28"
         />
       </a>
 
-      <div className="flex h-14 w-full items-center justify-end gap-6 pl-6 pr-28 sm:pl-10 sm:pr-36 md:h-16 lg:pl-12 lg:pr-52">
-        <div className="flex items-center gap-5 xl:gap-7">
+      <div className="flex h-14 w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
+        <div className="flex items-center gap-4 xl:gap-7">
           <nav
             aria-label="Primary"
-            className="hidden items-center gap-5 lg:flex xl:gap-7"
+            className="hidden items-center gap-3 lg:flex xl:gap-7"
           >
             {SECTIONS.map((s) => (
               <a

@@ -18,7 +18,7 @@
     "close": "Close menu"
   },
   "hero": {
-    "title": "Powering Industries.<br></br>Through <highlight>Strategic Minerals.</highlight>",
+    "title": "Powering Industries.<br></br>Through <highlight>Strategic<lgbr></lgbr> Minerals.</highlight>",
     "description": "Strategic sourcing and international trading solutions for critical minerals driving the future.",
     "cta": "Request a Partnership"
   },
@@ -49,27 +49,28 @@
   },
   "services": {
     "eyebrow": "Our Services",
-    "title": "End-to-End Solutions for the Mineral Supply Chain",
+    "title": "End-to-End Solutions for <highlight>the Mineral Supply Chain</highlight>",
+    "subtitle": "We deliver integrated solutions that connect resources to industries with efficiency, transparency and trust.",
     "items": {
       "trading": {
         "title": "Trading & Sourcing",
-        "description": "Reliable access to high-quality strategic minerals."
+        "description": "Reliable access to high-quality strategic minerals from trusted global sources."
       },
       "supply": {
         "title": "Supply Chain Management",
-        "description": "End-to-end solutions from origin to destination."
+        "description": "End-to-end solutions from origin to destination with full transparency."
       },
       "intelligence": {
         "title": "Market Intelligence",
-        "description": "Actionable insights for smarter decisions."
+        "description": "Actionable insights and market analysis for smarter, data-driven decisions."
       },
       "risk": {
         "title": "Risk Management",
-        "description": "Minimizing risks, maximising opportunities."
+        "description": "Proactive risk identification and mitigation to protect value and ensure continuity."
       },
       "logistics": {
         "title": "Logistics Solutions",
-        "description": "Efficient and secure global delivery."
+        "description": "Efficient and secure global logistics for timely and cost-effective delivery."
       }
     }
   },

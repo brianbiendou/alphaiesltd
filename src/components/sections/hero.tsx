@@ -8,8 +8,17 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative isolate flex min-h-[70svh] items-center overflow-hidden"
+      className="relative isolate flex min-h-[85svh] flex-col overflow-hidden md:min-h-[70svh] md:flex-row md:items-center"
     >
+      <Image
+        src="/images/hero/heromobile.png"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        quality={90}
+        className="-z-10 object-cover object-top md:hidden"
+      />
       <Image
         src="/images/hero/hero.png"
         alt=""
@@ -17,23 +26,24 @@ export function Hero() {
         priority
         sizes="100vw"
         quality={90}
-        className="-z-10 object-cover object-center"
+        className="-z-10 hidden object-cover object-center md:block"
       />
       <div
         aria-hidden
         className="-z-10 absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-cream-100"
       />
 
-      <div className="w-full pl-6 pr-6 pt-24 pb-20 sm:pl-10 md:pt-28 md:pb-28 lg:pl-[31rem] lg:pr-12">
-        <div className="relative max-w-3xl">
+      <div className="flex w-full flex-1 flex-col pl-6 pr-6 pt-20 pb-10 sm:pl-10 md:flex-none md:pt-28 md:pb-28 lg:pl-64 lg:pr-12">
+        <div className="relative flex max-w-3xl flex-1 flex-col md:flex-none">
           <div
             aria-hidden
-            className="absolute -inset-x-16 -inset-y-12 -z-10 rounded-[50%] bg-cream-100/80 blur-3xl"
+            className="absolute -left-32 right-56 -top-20 -bottom-4 -z-10 rounded-[50%] bg-cream-100/50 blur-3xl"
           />
 
-          <h1 className="text-balance font-display text-5xl font-semibold leading-[1.05] text-ink-900 md:text-6xl lg:text-7xl">
+          <h1 className="text-balance font-display text-3xl font-semibold leading-[1.05] text-ink-900 md:text-4xl lg:text-5xl">
             {t.rich("title", {
               br: () => <br />,
+              lgbr: () => <br className="hidden lg:inline" />,
               highlight: (chunks) => (
                 <span className="text-gold-600">{chunks}</span>
               ),
@@ -44,7 +54,7 @@ export function Hero() {
           </p>
           <a
             href="#about"
-            className="group mt-10 inline-flex items-center gap-2 rounded-sm bg-gold-500 px-7 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-white shadow-lg transition-colors hover:bg-gold-600"
+            className="group mt-auto inline-flex w-fit items-center gap-2 rounded-sm bg-gold-500 px-7 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-white shadow-lg transition-colors hover:bg-gold-600 md:mt-10"
           >
             {t("cta")}
             <ArrowRight

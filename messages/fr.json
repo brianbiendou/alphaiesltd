@@ -18,7 +18,7 @@
     "close": "Fermer le menu"
   },
   "hero": {
-    "title": "Alimenter les Industries.<br></br>Par les <highlight>Minéraux Stratégiques.</highlight>",
+    "title": "Alimenter les Industries.<br></br>Par les <highlight>Minéraux<lgbr></lgbr> Stratégiques.</highlight>",
     "description": "Sourcing stratégique et solutions de négoce international pour les minéraux critiques qui façonnent l'avenir.",
     "cta": "Demander un Partenariat"
   },
@@ -49,27 +49,28 @@
   },
   "services": {
     "eyebrow": "Nos Services",
-    "title": "Des Solutions de Bout en Bout pour la Chaîne Minérale",
+    "title": "Des Solutions de Bout en Bout pour <highlight>la Chaîne Minérale</highlight>",
+    "subtitle": "Nous livrons des solutions intégrées qui connectent les ressources aux industries avec efficacité, transparence et confiance.",
     "items": {
       "trading": {
         "title": "Négoce & Sourcing",
-        "description": "Accès fiable à des minéraux stratégiques de haute qualité."
+        "description": "Accès fiable à des minéraux stratégiques de haute qualité, issus de sources mondiales de confiance."
       },
       "supply": {
         "title": "Supply Chain",
-        "description": "Solutions complètes, de l'origine à la destination."
+        "description": "Solutions complètes, de l'origine à la destination, en toute transparence."
       },
       "intelligence": {
         "title": "Intelligence Marché",
-        "description": "Des informations actionnables pour de meilleures décisions."
+        "description": "Analyses pertinentes et études de marché pour des décisions plus éclairées et data-driven."
       },
       "risk": {
         "title": "Gestion des Risques",
-        "description": "Minimiser les risques, maximiser les opportunités."
+        "description": "Identification proactive des risques et mitigation pour protéger la valeur et assurer la continuité."
       },
       "logistics": {
         "title": "Solutions Logistiques",
-        "description": "Livraison mondiale efficace et sécurisée."
+        "description": "Logistique mondiale efficace et sécurisée pour des livraisons rapides et économiques."
       }
     }
   },

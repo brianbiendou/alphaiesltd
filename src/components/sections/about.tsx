@@ -14,7 +14,7 @@ export function About() {
   return (
     <section id="about" className="bg-white py-20 md:py-28">
       <div className="container-section">
-        <div className="grid items-start gap-12 lg:grid-cols-[1fr_1.3fr] lg:gap-16">
+        <div className="grid gap-12 lg:grid-cols-[1fr_1.3fr] lg:gap-16">
           <div>
             <p className="section-eyebrow">{t("eyebrow")}</p>
             <h2 className="mt-4 text-balance font-display text-4xl font-semibold leading-[1.1] text-ink-700 md:text-5xl">
@@ -34,23 +34,25 @@ export function About() {
             </a>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:gap-5">
-            {FEATURES.map(({ key, Icon }) => (
-              <div
-                key={key}
-                className="rounded-md border border-gold-200/60 bg-cream-50 p-5 text-center transition-all hover:-translate-y-1 hover:shadow-md md:p-6"
-              >
-                <div className="mx-auto inline-flex h-12 w-12 items-center justify-center rounded-full border border-gold-300/70 text-gold-500">
-                  <Icon className="h-6 w-6" strokeWidth={1.5} />
+          <div className="flex items-center">
+            <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-4 md:gap-5">
+              {FEATURES.map(({ key, Icon }) => (
+                <div
+                  key={key}
+                  className="flex flex-col items-center justify-center rounded-md border border-gold-200/60 bg-white px-3 py-6 text-center shadow-sm transition-all hover:-translate-y-1 hover:shadow-md md:px-4 md:py-8"
+                >
+                <div className="inline-flex h-16 w-16 items-center justify-center rounded-full border border-gold-300/70 text-gold-500">
+                  <Icon className="h-8 w-8" strokeWidth={1.5} />
                 </div>
-                <h3 className="mt-4 font-display text-sm font-semibold uppercase tracking-wide text-ink-700">
+                <h3 className="mt-5 font-display text-base font-semibold uppercase tracking-wide text-ink-700">
                   {t(`features.${key}.title`)}
                 </h3>
-                <p className="mt-2 text-xs leading-relaxed text-ink-400">
+                <p className="mt-3 text-sm leading-relaxed text-ink-400">
                   {t(`features.${key}.description`)}
                 </p>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>

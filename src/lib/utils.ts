@@ -22,7 +22,7 @@ export const CONTACT = {
   phoneDisplay: "+33 7 58 86 71 52",
   email: "happieelvira@alphaiesltd.com",
   social: {
-    linkedin: "https://www.linkedin.com/company/alpha-ies-ltd",
+    linkedin: "https://www.linkedin.com/company/alpha-ies-ltd/",
     x: "https://x.com/alphaiesltd",
   },
 } as const;

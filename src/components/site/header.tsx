@@ -60,7 +60,7 @@ export function Header() {
         />
       </a>
 
-      <div className="flex h-24 w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
+      <div className="flex h-[4.32rem] w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
         <div className="flex items-center gap-4 xl:gap-7">
           <nav
             aria-label="Primary"

@@ -45,26 +45,26 @@ export function Header() {
         scrolled ? "shadow-md" : "shadow-sm",
       )}
     >
-      <a
-        href={homeHref}
-        className="absolute left-6 top-1/2 z-10 flex -translate-y-1/2 items-center sm:left-10 md:left-12 md:translate-y-0 md:top-0 lg:left-16 lg:-top-2 xl:left-44 xl:-top-6 2xl:left-46"
-        aria-label={`${t("home")} — Alpha IES Ltd`}
-      >
-        <Image
-          src="/images/logo/logo.webp"
-          alt="Alpha IES Ltd logo"
-          width={240}
-          height={86}
-          priority
-          className="h-[5.5rem] w-auto md:h-24 lg:h-24 xl:h-28"
-        />
-      </a>
+      <div className="flex h-[4.32rem] w-full items-center gap-4 px-6 sm:px-10 md:h-16 md:px-12 lg:px-16 xl:px-28 2xl:px-52">
+        <a
+          href={homeHref}
+          className="flex shrink-0 items-center"
+          aria-label={`${t("home")} — Alpha IES Ltd`}
+        >
+          <Image
+            src="/images/logo/logo.webp"
+            alt="Alpha IES Ltd logo"
+            width={623}
+            height={156}
+            priority
+            className="h-[3.24rem] w-auto md:h-[3.0375rem]"
+          />
+        </a>
 
-      <div className="flex h-[4.32rem] w-full items-center justify-end gap-4 pl-6 pr-6 sm:pl-10 sm:pr-10 md:pl-12 md:pr-12 md:h-16 lg:pl-[16rem] lg:pr-6 xl:gap-6 xl:pl-[31rem] xl:pr-28 2xl:pr-52">
-        <div className="flex items-center gap-4 xl:gap-7">
+        <div className="flex flex-1 items-center justify-end gap-4 xl:gap-6">
           <nav
             aria-label="Primary"
-            className="hidden items-center gap-3 lg:flex xl:gap-7"
+            className="hidden items-center gap-3 lg:flex xl:gap-6"
           >
             {SECTIONS.map((s) => (
               <a
@@ -104,13 +104,13 @@ export function Header() {
             className="fixed inset-0 z-[59] bg-black/40 lg:hidden"
           />
           <div className="fixed inset-y-0 right-0 z-[60] flex w-1/2 min-w-[15rem] flex-col bg-white shadow-2xl lg:hidden">
-            <div className="flex h-20 items-center justify-between px-5">
+            <div className="flex h-[4.32rem] items-center justify-between px-5 md:h-16">
               <Image
                 src="/images/logo/logo.webp"
                 alt="Alpha IES Ltd logo"
-                width={180}
-                height={64}
-                className="h-10 w-auto"
+                width={623}
+                height={156}
+                className="h-9 w-auto"
               />
               <button
                 type="button"

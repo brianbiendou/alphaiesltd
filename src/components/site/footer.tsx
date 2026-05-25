@@ -28,8 +28,8 @@ export function Footer() {
           <Image
             src="/images/logo/logo.webp"
             alt="Alpha IES Ltd"
-            width={200}
-            height={72}
+            width={623}
+            height={156}
             className="h-14 w-auto brightness-0 invert"
           />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">

@@ -15,7 +15,7 @@ export function Hero() {
         alt=""
         fill
         priority
-        sizes="100vw"
+        sizes="(max-width: 767px) 100vw, 1px"
         quality={90}
         className="-z-10 object-cover object-top md:hidden"
       />
@@ -24,7 +24,7 @@ export function Hero() {
         alt=""
         fill
         priority
-        sizes="100vw"
+        sizes="(min-width: 768px) 100vw, 1px"
         quality={90}
         className="-z-10 hidden object-cover object-center md:block"
       />

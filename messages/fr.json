@@ -161,14 +161,15 @@
     "subtitle": "Contactez-nous pour discuter sourcing, négoce ou partenariats.",
     "address": "Pad 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Irlande",
     "phone": "+33 7 58 86 71 52",
-    "email": "happieelvira@alphaiesltd.com",
+    "email": "happielvira@alphaiesltd.com",
     "form": {
       "name": "Nom complet",
       "emailLabel": "Adresse email",
       "company": "Entreprise",
       "message": "Message",
       "submit": "Envoyer",
-      "success": "Merci — nous reviendrons vers vous rapidement."
+      "success": "Merci — nous reviendrons vers vous rapidement.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
     }
   },
   "footer": {

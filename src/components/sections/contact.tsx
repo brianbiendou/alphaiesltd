@@ -9,10 +9,33 @@ import { Reveal } from "@/components/site/reveal";
 export function Contact() {
   const t = useTranslations("contact");
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSent(true);
+    setLoading(true);
+    setError("");
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      company: (form.elements.namedItem("company") as HTMLInputElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+    };
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error();
+      setSent(true);
+    } catch {
+      setError(t("form.error"));
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -99,11 +122,15 @@ export function Contact() {
                     className="mt-2 w-full rounded-sm border border-cream-300 bg-cream-50 px-4 py-3 text-sm text-ink-700 outline-none transition-colors focus:border-gold-500"
                   />
                 </div>
+                {error && (
+                  <p className="text-sm text-red-500">{error}</p>
+                )}
                 <button
                   type="submit"
-                  className="rounded-sm bg-gold-500 px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-gold-600"
+                  disabled={loading}
+                  className="rounded-sm bg-gold-500 px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-gold-600 disabled:opacity-60"
                 >
-                  {t("form.submit")}
+                  {loading ? "…" : t("form.submit")}
                 </button>
               </div>
             )}

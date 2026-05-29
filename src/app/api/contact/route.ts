@@ -7,8 +7,8 @@ export async function POST(request: Request) {
   const { name, email, company, message } = await request.json();
 
   const { error } = await resend.emails.send({
-    from: "Alpha IES Ltd <happielvira@alphaiesltd.com>",
-    to: "happielvira@alphaiesltd.com",
+    from: "Alpha IES Ltd <contact@alphaiesltd.com>",
+    to: "contact@alphaiesltd.com",
     replyTo: email,
     subject: `Nouveau message de ${name}${company ? ` — ${company}` : ""}`,
     html: `<!DOCTYPE html>

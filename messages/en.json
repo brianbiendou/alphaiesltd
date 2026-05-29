@@ -103,8 +103,8 @@
   },
   "why": {
     "eyebrow": "Why Choose Alpha IES Ltd?",
-    "title": "Partners You Can <highlight>Build On</highlight>",
-    "subtitle": "We combine industry expertise, global partnerships, and a commitment to excellence to create long-term value for our partners.",
+    "title": "Your Long-Term <highlight>Strategic Partner</highlight>",
+    "subtitle": "We don't just supply minerals — we build lasting partnerships grounded in trust, expertise, and shared long-term success.",
     "items": {
       "expertise": {
         "title": "Industry Expertise",
@@ -161,7 +161,7 @@
     "subtitle": "Reach out to discuss sourcing, trading or partnership opportunities.",
     "address": "Pad 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Ireland",
     "phone": "+33 7 58 86 71 52",
-    "email": "happielvira@alphaiesltd.com",
+    "email": "contact@alphaiesltd.com",
     "form": {
       "name": "Full name",
       "emailLabel": "Email address",

@@ -12,7 +12,7 @@ export const SITE_NAME = "Alpha IES Ltd";
 
 export const CONTACT = {
   address: {
-    streetAddress: "Pad 2, The Old Station House, 15a Main Street",
+    streetAddress: "Pod 2, The Old Station House, 15a Main Street",
     addressLocality: "Blackrock",
     addressRegion: "Co. Dublin",
     postalCode: "A94 TRP8",

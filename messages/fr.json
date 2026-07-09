@@ -159,7 +159,7 @@
     "eyebrow": "Contact",
     "title": "Construisons Quelque Chose qui Dure.",
     "subtitle": "Contactez-nous pour discuter sourcing, négoce ou partenariats.",
-    "address": "Pad 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Irlande",
+    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Irlande",
     "phone": "+33 7 58 86 71 52",
     "email": "contact@alphaiesltd.com",
     "form": {
@@ -179,6 +179,7 @@
     "contactTitle": "Contactez-nous",
     "followUs": "Suivez-nous",
     "rights": "© {year} Alpha IES Ltd. Tous droits réservés.",
+    "legal": "Mentions Légales",
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions Générales"
   }

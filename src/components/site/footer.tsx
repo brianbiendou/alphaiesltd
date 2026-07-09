@@ -2,19 +2,25 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Linkedin, Twitter, MapPin, Phone, Mail } from "lucide-react";
 import { CONTACT } from "@/lib/utils";
+import { Link } from "@/i18n/navigation";
 
 const QUICK = [
-  { href: "#top", key: "home" },
-  { href: "#about", key: "about" },
-  { href: "#services", key: "services" },
-  { href: "#commodities", key: "commodities" },
-  { href: "#markets", key: "markets" },
+  { hash: "top", key: "home" },
+  { hash: "about", key: "about" },
+  { hash: "services", key: "services" },
+  { hash: "commodities", key: "commodities" },
+  { hash: "markets", key: "markets" },
 ] as const;
 
 const COMPANY = [
-  { href: "#why", key: "sustainability" },
-  { href: "#news", key: "news" },
-  { href: "#contact", key: "contact" },
+  { hash: "why", key: "sustainability" },
+  { hash: "contact", key: "contact" },
+] as const;
+
+const LEGAL = [
+  { href: "/legal-notice", key: "legal" },
+  { href: "/privacy-policy", key: "privacy" },
+  { href: "/terms", key: "terms" },
 ] as const;
 
 export function Footer() {
@@ -39,7 +45,7 @@ export function Footer() {
 
         <FooterCol title={t("footer.quickLinks")}>
           {QUICK.map((l) => (
-            <FooterLink key={l.key} href={l.href}>
+            <FooterLink key={l.key} href={{ pathname: "/", hash: l.hash }}>
               {t(`nav.${l.key}`)}
             </FooterLink>
           ))}
@@ -47,7 +53,7 @@ export function Footer() {
 
         <FooterCol title={t("footer.company")}>
           {COMPANY.map((l) => (
-            <FooterLink key={l.key} href={l.href}>
+            <FooterLink key={l.key} href={{ pathname: "/", hash: l.hash }}>
               {t(`nav.${l.key}`)}
             </FooterLink>
           ))}
@@ -99,13 +105,12 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-section flex flex-col items-center justify-between gap-4 py-5 text-xs text-white/50 md:flex-row">
           <p>{t("footer.rights", { year })}</p>
-          <div className="flex gap-5">
-            <a href="#" className="hover:text-gold-300">
-              {t("footer.privacy")}
-            </a>
-            <a href="#" className="hover:text-gold-300">
-              {t("footer.terms")}
-            </a>
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2">
+            {LEGAL.map((l) => (
+              <Link key={l.key} href={l.href} className="hover:text-gold-300">
+                {t(`footer.${l.key}`)}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
@@ -134,17 +139,17 @@ function FooterLink({
   href,
   children,
 }: {
-  href: string;
+  href: { pathname: "/"; hash: string };
   children: React.ReactNode;
 }) {
   return (
     <li>
-      <a
+      <Link
         href={href}
         className="text-sm text-white/70 transition-colors hover:text-gold-300"
       >
         {children}
-      </a>
+      </Link>
     </li>
   );
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
-import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/utils";
-import { LegalShell, LSection, LP, LA, TODO } from "@/components/site/legal";
+import { COMPANY, CONTACT, HOSTING, SITE_NAME, SITE_URL } from "@/lib/utils";
+import { LegalShell, LSection, LP, LA } from "@/components/site/legal";
 
 type Params = { params: Promise<{ locale: string }> };
 
@@ -32,7 +32,7 @@ export default async function LegalNoticePage({ params }: Params) {
     <LegalShell
       eyebrow={fr ? "Informations légales" : "Legal information"}
       title={fr ? "Mentions Légales" : "Legal Notice"}
-      updated={fr ? "Dernière mise à jour : 9 juillet 2026" : "Last updated: 9 July 2026"}
+      updated={fr ? "Dernière mise à jour : 5 septembre 2026" : "Last updated: 5 September 2026"}
     >
       <LSection heading={fr ? "Éditeur du site" : "Site publisher"}>
         <LP>
@@ -50,8 +50,15 @@ export default async function LegalNoticePage({ params }: Params) {
           {fr ? "Siège social : " : "Registered office: "}
           {address}
           <br />
-          {fr ? "Numéro d'enregistrement (CRO) : " : "Company registration number (CRO): "}
-          <TODO>{fr ? "À COMPLÉTER" : "TO BE COMPLETED"}</TODO>
+          {fr
+            ? "Numéro d'enregistrement au registre des sociétés (CRO) : "
+            : "Company registration number (CRO): "}
+          <strong>{COMPANY.registrationNumber}</strong>
+          <br />
+          {fr ? "Lieu d'immatriculation : " : "Place of registration: "}
+          {fr
+            ? `Irlande — ${COMPANY.registrar}`
+            : `${COMPANY.placeOfRegistration} — ${COMPANY.registrar}`}
           <br />
           {fr ? "Email : " : "Email: "}
           <LA href={`mailto:${CONTACT.email}`}>{CONTACT.email}</LA>
@@ -60,8 +67,9 @@ export default async function LegalNoticePage({ params }: Params) {
           <LA href={`tel:${CONTACT.phone}`}>{CONTACT.phoneDisplay}</LA>
         </LP>
         <LP>
-          {fr ? "Directeur de la publication : " : "Publication director: "}
-          <TODO>{fr ? "À COMPLÉTER — nom du dirigeant" : "TO BE COMPLETED — director name"}</TODO>
+          {fr ? "Directrice de la publication : " : "Publication director: "}
+          <strong>{COMPANY.director}</strong>
+          {fr ? ", Fondatrice et Présidente" : ", Founder & CEO"}
         </LP>
       </LSection>
 
@@ -72,11 +80,11 @@ export default async function LegalNoticePage({ params }: Params) {
             : "The website is hosted by:"}
         </LP>
         <LP>
-          <TODO>
-            {fr
-              ? "À COMPLÉTER — nom de l'hébergeur, adresse et coordonnées (ex. Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA — vercel.com)"
-              : "TO BE COMPLETED — host name, address and contact details (e.g. Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA — vercel.com)"}
-          </TODO>
+          <strong>{HOSTING.name}</strong>
+          <br />
+          {HOSTING.address}
+          <br />
+          <LA href={HOSTING.url}>{HOSTING.url.replace("https://", "")}</LA>
         </LP>
       </LSection>
 

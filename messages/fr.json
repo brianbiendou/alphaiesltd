@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Alpha IES Ltd — Négoce et Sourcing de Minéraux Stratégiques",
-    "description": "Alpha IES Ltd est une société de négoce et de sourcing de minéraux stratégiques, qui connecte les ressources aux opportunités mondiales. Lithium, Cobalt, Nickel, Manganèse et plus encore.",
-    "keywords": "minéraux stratégiques, négoce de minéraux, sourcing lithium, sourcing cobalt, sourcing nickel, manganèse, terres rares, graphite, supply chain, trading matières premières, Alpha IES Ltd, Dublin Irlande"
+    "description": "Alpha IES Ltd est une société de négoce et de sourcing de minéraux stratégiques qui relie le monde aux ressources stratégiques avec intégrité, intelligence et discipline institutionnelle. Cuivre, Cobalt, Tantalite, Lithium et Or.",
+    "keywords": "minéraux stratégiques, négoce de minéraux, sourcing cuivre, sourcing cobalt, tantalite, sourcing lithium, négoce or, minéraux critiques, chaîne d'approvisionnement, trading de matières premières, Alpha IES Ltd, Dublin Irlande"
   },
   "nav": {
     "home": "Accueil",
@@ -24,26 +24,29 @@
   },
   "about": {
     "eyebrow": "À Propos",
-    "title": "Minéraux Stratégiques. Impact Global.",
-    "paragraph1": "Alpha IES Ltd est spécialisée dans le négoce et le sourcing des minéraux stratégiques essentiels aux industries les plus critiques au monde.",
-    "paragraph2": "Nous combinons une expertise marché approfondie, une logistique fiable et des partenariats solides pour créer de la valeur à chaque étape de la chaîne d'approvisionnement.",
+    "title": "Minéraux Stratégiques. Impact Mondial.",
+    "missionLabel": "Notre Mission",
+    "mission": "Sourcer, négocier et livrer des minéraux stratégiques via des chaînes d'approvisionnement sécurisées, efficaces et responsables, en créant de la valeur durable pour nos partenaires.",
+    "visionLabel": "Notre Vision",
+    "vision": "Devenir un partenaire mondial de référence dans le négoce des minéraux stratégiques, en créant de la valeur durable pour les nations, les industries et les générations futures.",
     "cta": "En Savoir Plus",
+    "valuesLabel": "Nos Valeurs",
     "features": {
-      "global": {
-        "title": "Réseau Mondial",
-        "description": "Une présence forte sur les marchés clés"
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous agissons avec honnêteté et une éthique forte."
       },
-      "trust": {
-        "title": "Confiance & Intégrité",
-        "description": "Engagés dans des pratiques éthiques et transparentes"
+      "partnership": {
+        "title": "Partenariat",
+        "description": "Nous bâtissons des relations durables."
       },
-      "expert": {
-        "title": "Équipe Experte",
-        "description": "Des professionnels qui livrent l'excellence"
+      "responsibility": {
+        "title": "Responsabilité",
+        "description": "Nous assumons nos engagements et rendons des comptes."
       },
       "sustainable": {
-        "title": "Croissance Durable",
-        "description": "Créer de la valeur à long terme pour tous"
+        "title": "Valeur Durable",
+        "description": "Nous créons de la valeur à long terme pour un avenir meilleur."
       }
     }
   },
@@ -71,21 +74,23 @@
       "logistics": {
         "title": "Solutions Logistiques",
         "description": "Logistique mondiale efficace et sécurisée pour des livraisons rapides et économiques."
+      },
+      "financing": {
+        "title": "Solutions de Financement",
+        "description": "Des montages financiers structurés qui sécurisent les transactions et débloquent les opérations de nos partenaires."
       }
     }
   },
   "commodities": {
     "eyebrow": "Nos Minéraux",
     "title": "Minéraux Stratégiques que Nous Négocions",
-    "subtitle": "Matières premières critiques qui alimentent la transition énergétique, l'électronique, l'aéronautique et les industries de pointe.",
+    "subtitle": "Des matières premières critiques au cœur de la transition énergétique, des véhicules électriques, des énergies renouvelables, de l'électronique de pointe et de la défense & aérospatiale.",
     "items": {
-      "lithium": "Lithium",
+      "copper": "Cuivre",
       "cobalt": "Cobalt",
-      "nickel": "Nickel",
-      "manganese": "Manganèse",
-      "chromium": "Chrome",
-      "rareEarths": "Terres Rares",
-      "graphite": "Graphite"
+      "tantalite": "Tantalite",
+      "lithium": "Lithium",
+      "gold": "Or"
     },
     "viewAll": "Voir Tous les Minéraux"
   },
@@ -129,37 +134,22 @@
     }
   },
   "news": {
-    "eyebrow": "Actualités & Analyses",
-    "title": "Perspectives Sectorielles",
-    "readMore": "Lire la suite",
-    "items": {
-      "energy": {
-        "date": "15 mai 2024",
-        "title": "L'Avenir des Minéraux Stratégiques dans un Monde d'Énergie Propre",
-        "excerpt": "Comment les minéraux critiques alimentent la transition énergétique mondiale et redessinent les chaînes d'approvisionnement."
-      },
-      "supply": {
-        "date": "22 avril 2024",
-        "title": "Comment la Résilience de la Supply Chain Stimule la Croissance",
-        "excerpt": "Les leçons des récentes perturbations et comment un sourcing diversifié devient un avantage durable."
-      },
-      "africa": {
-        "date": "10 mars 2024",
-        "title": "Alpha IES Ltd Renforce sa Présence sur les Marchés Africains",
-        "excerpt": "De nouveaux partenariats à travers le continent consolident notre position dans le sourcing amont."
-      },
-      "outlook": {
-        "date": "5 février 2024",
-        "title": "Perspectives Marché : Minéraux à Surveiller en 2024",
-        "excerpt": "Nos analystes partagent leurs vues sur la demande, les prix et le positionnement stratégique pour l'année."
-      }
+    "eyebrow": "Veille de Marché",
+    "title": "Notre Veille de Marché",
+    "intro": "Nous suivons cette source quotidiennement pour évaluer les risques, anticiper la demande et conseiller nos partenaires. L'essentiel est relayé sur notre page LinkedIn.",
+    "readMore": "Consulter la source",
+    "disclaimer": "Veille externe, référencée à titre informatif. Alpha IES Ltd n'est pas affiliée à cet éditeur.",
+    "item": {
+      "source": "Investing News Network",
+      "title": "Actualités et analyses des métaux précieux dans une perspective mondiale",
+      "excerpt": "Or, argent, platine ou palladium : la couverture complète nécessaire pour naviguer avec confiance sur les marchés internationaux des métaux précieux."
     }
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Construisons Quelque Chose qui Dure.",
     "subtitle": "Contactez-nous pour discuter sourcing, négoce ou partenariats.",
-    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Irlande",
+    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 T8P8, Co. Dublin, Irlande",
     "phone": "+33 7 58 86 71 52",
     "email": "contact@alphaiesltd.com",
     "form": {
@@ -181,6 +171,7 @@
     "rights": "© {year} Alpha IES Ltd. Tous droits réservés.",
     "legal": "Mentions Légales",
     "privacy": "Politique de Confidentialité",
-    "terms": "Conditions Générales"
+    "terms": "Conditions Générales",
+    "registration": "Société immatriculée en Irlande · N° d'enregistrement {number}"
   }
 }

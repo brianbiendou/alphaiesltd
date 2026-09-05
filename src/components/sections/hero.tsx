@@ -33,7 +33,7 @@ export function Hero() {
         className="-z-10 absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-cream-100"
       />
 
-      <div className="flex w-full flex-1 flex-col pl-6 pr-6 pt-40 pb-10 sm:pl-10 md:flex-none md:pt-28 md:pb-28 lg:pl-64 lg:pr-12">
+      <div className="container-section flex w-full flex-1 flex-col pt-40 pb-10 md:flex-none md:pt-28 md:pb-28">
         <div className="relative flex max-w-3xl flex-1 flex-col md:flex-none">
           <div
             aria-hidden

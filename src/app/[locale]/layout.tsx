@@ -7,7 +7,7 @@ import type { ReactNode } from "react";
 
 import "../globals.css";
 import { routing } from "@/i18n/routing";
-import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/utils";
+import { SITE_NAME, SITE_URL, CONTACT, COMPANY } from "@/lib/utils";
 import { JsonLd } from "@/components/seo/json-ld";
 
 const inter = Inter({
@@ -110,6 +110,8 @@ export default async function LocaleLayout({
                 "@type": "Organization",
                 "@id": `${SITE_URL}#organization`,
                 name: SITE_NAME,
+                legalName: COMPANY.legalName,
+                foundingDate: COMPANY.foundingDate,
                 url: SITE_URL,
                 logo: `${SITE_URL}/images/logo/logo.webp`,
                 description:
@@ -125,7 +127,12 @@ export default async function LocaleLayout({
                   email: CONTACT.email,
                   availableLanguage: ["English", "French"],
                 },
-                sameAs: [CONTACT.social.linkedin, CONTACT.social.x],
+                identifier: {
+                  "@type": "PropertyValue",
+                  name: COMPANY.registrar,
+                  value: COMPANY.registrationNumber,
+                },
+                sameAs: [CONTACT.social.linkedin],
               },
               {
                 "@type": "WebSite",

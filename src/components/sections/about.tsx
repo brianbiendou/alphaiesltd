@@ -1,12 +1,12 @@
 import { useTranslations } from "next-intl";
-import { Globe2, ShieldCheck, Users2, TrendingUp } from "lucide-react";
+import { ShieldCheck, Handshake, Users2, Globe2 } from "lucide-react";
 import { Reveal, RevealStagger, RevealItem } from "@/components/site/reveal";
 
 const FEATURES = [
-  { key: "global", Icon: Globe2 },
-  { key: "trust", Icon: ShieldCheck },
-  { key: "expert", Icon: Users2 },
-  { key: "sustainable", Icon: TrendingUp },
+  { key: "integrity", Icon: ShieldCheck },
+  { key: "partnership", Icon: Handshake },
+  { key: "responsibility", Icon: Users2 },
+  { key: "sustainable", Icon: Globe2 },
 ] as const;
 
 export function About() {
@@ -27,12 +27,24 @@ export function About() {
             <h2 className="text-balance font-display text-4xl font-semibold leading-[1.1] text-ink-700 md:text-5xl">
               {t("title")}
             </h2>
-            <p className="mt-6 text-pretty leading-relaxed text-ink-500">
-              {t("paragraph1")}
-            </p>
-            <p className="mt-4 text-pretty leading-relaxed text-ink-500">
-              {t("paragraph2")}
-            </p>
+            <div className="mt-8 space-y-6">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-600">
+                  {t("missionLabel")}
+                </p>
+                <p className="mt-2 text-pretty leading-relaxed text-ink-500">
+                  {t("mission")}
+                </p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold-600">
+                  {t("visionLabel")}
+                </p>
+                <p className="mt-2 text-pretty leading-relaxed text-ink-500">
+                  {t("vision")}
+                </p>
+              </div>
+            </div>
             <a
               href="#services"
               className="mt-8 inline-flex items-center rounded-sm bg-gold-500 px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-gold-600"
@@ -41,7 +53,10 @@ export function About() {
             </a>
           </Reveal>
 
-          <div className="flex items-center">
+          <div className="flex flex-col justify-center">
+            <p className="mb-5 text-xs font-semibold uppercase tracking-[0.18em] text-gold-600">
+              {t("valuesLabel")}
+            </p>
             <RevealStagger className="grid w-full grid-cols-2 gap-4 sm:grid-cols-4 md:gap-5">
               {FEATURES.map(({ key, Icon }) => (
                 <RevealItem

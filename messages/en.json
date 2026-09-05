@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Alpha IES Ltd — Strategic Minerals Trading & Sourcing",
-    "description": "Alpha IES Ltd is a strategic minerals trading and sourcing company committed to connecting resources with global opportunities. Lithium, Cobalt, Nickel, Manganese and more.",
-    "keywords": "strategic minerals, minerals trading, lithium sourcing, cobalt sourcing, nickel sourcing, manganese, rare earths, graphite, supply chain, commodity trading, Alpha IES Ltd, Dublin Ireland"
+    "description": "Alpha IES Ltd is a strategic minerals trading and sourcing company connecting the world to strategic resources with integrity, intelligence and institutional discipline. Copper, Cobalt, Tantalite, Lithium and Gold.",
+    "keywords": "strategic minerals, minerals trading, copper sourcing, cobalt sourcing, tantalite, lithium sourcing, gold trading, critical minerals, supply chain, commodity trading, Alpha IES Ltd, Dublin Ireland"
   },
   "nav": {
     "home": "Home",
@@ -25,25 +25,28 @@
   "about": {
     "eyebrow": "About Us",
     "title": "Strategic Minerals. Global Impact.",
-    "paragraph1": "Alpha IES Ltd specializes in the trading and sourcing of strategic minerals essential for the world's most critical industries.",
-    "paragraph2": "We combine deep market intelligence, reliable logistics, and strong partnerships to deliver value at every stage of the supply chain.",
+    "missionLabel": "Our Mission",
+    "mission": "To source, trade and deliver strategic minerals through secured, efficient and responsible supply chains, creating long-term value for our partners.",
+    "visionLabel": "Our Vision",
+    "vision": "To be a leading global partner in strategic minerals trading, driving sustainable value for nations, industries and future generations.",
     "cta": "Learn More",
+    "valuesLabel": "Our Values",
     "features": {
-      "global": {
-        "title": "Global Network",
-        "description": "Strong presence across key markets"
+      "integrity": {
+        "title": "Integrity",
+        "description": "We act with honesty and strong ethics."
       },
-      "trust": {
-        "title": "Trust & Integrity",
-        "description": "Committed to ethical and transparent practices"
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build lasting relationships."
       },
-      "expert": {
-        "title": "Expert Team",
-        "description": "Industry professionals delivering excellence"
+      "responsibility": {
+        "title": "Responsibility",
+        "description": "We take ownership and deliver with accountability."
       },
       "sustainable": {
-        "title": "Sustainable Growth",
-        "description": "Creating long-term value for all stakeholders"
+        "title": "Sustainable Value",
+        "description": "We create long-term value for a better future."
       }
     }
   },
@@ -71,21 +74,23 @@
       "logistics": {
         "title": "Logistics Solutions",
         "description": "Efficient and secure global logistics for timely and cost-effective delivery."
+      },
+      "financing": {
+        "title": "Financing Solutions",
+        "description": "Structured financing arrangements that secure transactions and unlock deal flow for our partners."
       }
     }
   },
   "commodities": {
     "eyebrow": "Our Commodities",
     "title": "Strategic Minerals We Trade",
-    "subtitle": "Critical raw materials powering the energy transition, electronics, aerospace and high-tech industries.",
+    "subtitle": "Critical raw materials powering the energy transition, electric vehicles, renewable energy, advanced electronics and defense & aerospace.",
     "items": {
-      "lithium": "Lithium",
+      "copper": "Copper",
       "cobalt": "Cobalt",
-      "nickel": "Nickel",
-      "manganese": "Manganese",
-      "chromium": "Chromium",
-      "rareEarths": "Rare Earths",
-      "graphite": "Graphite"
+      "tantalite": "Tantalite",
+      "lithium": "Lithium",
+      "gold": "Gold"
     },
     "viewAll": "View All Commodities"
   },
@@ -129,37 +134,22 @@
     }
   },
   "news": {
-    "eyebrow": "Latest News & Insights",
-    "title": "Industry Perspectives",
-    "readMore": "Read More",
-    "items": {
-      "energy": {
-        "date": "May 15, 2024",
-        "title": "The Future of Strategic Minerals in a Clean Energy World",
-        "excerpt": "How critical minerals are powering the global energy transition and reshaping supply chains."
-      },
-      "supply": {
-        "date": "April 22, 2024",
-        "title": "How Supply Chain Resilience Drives Global Growth",
-        "excerpt": "Lessons learned from recent disruptions and how diversified sourcing builds long-term advantage."
-      },
-      "africa": {
-        "date": "March 10, 2024",
-        "title": "Alpha IES Ltd Expands Presence in Key African Markets",
-        "excerpt": "New partnerships across the continent strengthen our position in upstream mineral sourcing."
-      },
-      "outlook": {
-        "date": "February 5, 2024",
-        "title": "Market Outlook: Key Minerals to Watch in 2024",
-        "excerpt": "Our analysts share their views on demand, pricing and strategic positioning for the year ahead."
-      }
+    "eyebrow": "Market Intelligence",
+    "title": "Our Market Watch",
+    "intro": "We follow this source daily to price risk, anticipate demand and advise our partners. Highlights are shared on our LinkedIn page.",
+    "readMore": "View source",
+    "disclaimer": "Third-party research, linked for information purposes. Alpha IES Ltd is not affiliated with this publisher.",
+    "item": {
+      "source": "Investing News Network",
+      "title": "Precious Metals Market News and Analysis from a Global Perspective",
+      "excerpt": "Whether it is gold, silver, platinum or palladium, get the comprehensive coverage you need to navigate the international precious metals markets confidently."
     }
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's Build Something Lasting.",
     "subtitle": "Reach out to discuss sourcing, trading or partnership opportunities.",
-    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 TRP8, Co. Dublin, Ireland",
+    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 T8P8, Co. Dublin, Ireland",
     "phone": "+33 7 58 86 71 52",
     "email": "contact@alphaiesltd.com",
     "form": {
@@ -181,6 +171,7 @@
     "rights": "© {year} Alpha IES Ltd. All rights reserved.",
     "legal": "Legal Notice",
     "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions"
+    "terms": "Terms & Conditions",
+    "registration": "Registered in Ireland · Company registration No. {number}"
   }
 }

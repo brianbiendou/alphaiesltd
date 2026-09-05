@@ -47,16 +47,12 @@ export function WhyChoose() {
                 aria-hidden
                 className="mt-1 block h-4 w-px bg-gold-300/70"
               />
-              <h3 className="mt-2 font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink-800">
+              <h3 className="mt-2 flex min-h-[2.5rem] items-center font-display text-sm font-semibold uppercase tracking-[0.14em] text-ink-800">
                 {t(`items.${key}.title`)}
               </h3>
               <p className="mt-4 text-sm leading-relaxed text-ink-500">
                 {t(`items.${key}.description`)}
               </p>
-              <span
-                aria-hidden
-                className="mt-6 block h-px w-8 bg-gold-500"
-              />
             </RevealItem>
           ))}
         </RevealStagger>

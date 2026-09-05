@@ -6,6 +6,7 @@ import {
   LineChart,
   ShieldAlert,
   Truck,
+  Landmark,
 } from "lucide-react";
 import { Reveal, RevealStagger, RevealItem } from "@/components/site/reveal";
 
@@ -40,6 +41,12 @@ const SERVICES = [
     image: "/images/section3/logistic solutions.webp",
     number: "05",
   },
+  {
+    key: "financing",
+    Icon: Landmark,
+    image: "/images/section3/financing solutions.webp",
+    number: "06",
+  },
 ] as const;
 
 export function Services() {
@@ -66,7 +73,7 @@ export function Services() {
           </p>
         </Reveal>
 
-        <RevealStagger className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mt-16 md:grid-cols-3 lg:grid-cols-5">
+        <RevealStagger className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mt-16 md:grid-cols-3">
           {SERVICES.map(({ key, Icon, image, number }) => (
             <RevealItem
               key={key}
@@ -77,7 +84,7 @@ export function Services() {
                   src={image}
                   alt=""
                   fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>

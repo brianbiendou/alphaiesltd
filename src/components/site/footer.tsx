@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Linkedin, Twitter, MapPin, Phone, Mail } from "lucide-react";
-import { CONTACT } from "@/lib/utils";
+import { Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import { COMPANY, CONTACT } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
 
 const QUICK = [
@@ -12,8 +12,9 @@ const QUICK = [
   { hash: "markets", key: "markets" },
 ] as const;
 
-const COMPANY = [
+const COMPANY_LINKS = [
   { hash: "why", key: "sustainability" },
+  { hash: "news", key: "news" },
   { hash: "contact", key: "contact" },
 ] as const;
 
@@ -52,7 +53,7 @@ export function Footer() {
         </FooterCol>
 
         <FooterCol title={t("footer.company")}>
-          {COMPANY.map((l) => (
+          {COMPANY_LINKS.map((l) => (
             <FooterLink key={l.key} href={{ pathname: "/", hash: l.hash }}>
               {t(`nav.${l.key}`)}
             </FooterLink>
@@ -79,32 +80,30 @@ export function Footer() {
         </FooterCol>
 
         <FooterCol title={t("footer.followUs")}>
-          <div className="flex gap-3">
+          <li>
             <a
               href={CONTACT.social.linkedin}
-              aria-label="LinkedIn"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-sm bg-white/10 text-white transition-colors hover:bg-gold-500"
+              className="inline-flex items-center gap-3 rounded-sm bg-white/10 px-4 py-2.5 text-sm text-white transition-colors hover:bg-gold-500"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Linkedin className="h-4 w-4" strokeWidth={1.8} />
+              <Linkedin className="h-4 w-4 flex-shrink-0" strokeWidth={1.8} />
+              LinkedIn
             </a>
-            <a
-              href={CONTACT.social.x}
-              aria-label="X (Twitter)"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-sm bg-white/10 text-white transition-colors hover:bg-gold-500"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Twitter className="h-4 w-4" strokeWidth={1.8} />
-            </a>
-          </div>
+          </li>
         </FooterCol>
       </div>
 
       <div className="border-t border-white/10">
         <div className="container-section flex flex-col items-center justify-between gap-4 py-5 text-xs text-white/50 md:flex-row">
-          <p>{t("footer.rights", { year })}</p>
+          <div className="space-y-1 text-center md:text-left">
+            <p>{t("footer.rights", { year })}</p>
+            <p>
+              {t("footer.registration", {
+                number: COMPANY.registrationNumber,
+              })}
+            </p>
+          </div>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2">
             {LEGAL.map((l) => (
               <Link key={l.key} href={l.href} className="hover:text-gold-300">

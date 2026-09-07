@@ -136,13 +136,20 @@
   "news": {
     "eyebrow": "Market Intelligence",
     "title": "Our Market Watch",
-    "intro": "We follow this source daily to price risk, anticipate demand and advise our partners. Highlights are shared on our LinkedIn page.",
+    "intro": "We follow these sources daily to price risk, anticipate demand and advise our partners. Highlights are shared on our LinkedIn page.",
     "readMore": "View source",
-    "disclaimer": "Third-party research, linked for information purposes. Alpha IES Ltd is not affiliated with this publisher.",
-    "item": {
-      "source": "Investing News Network",
-      "title": "Precious Metals Market News and Analysis from a Global Perspective",
-      "excerpt": "Whether it is gold, silver, platinum or palladium, get the comprehensive coverage you need to navigate the international precious metals markets confidently."
+    "disclaimer": "Third-party sources, linked for information purposes. Alpha IES Ltd is not affiliated with these publishers.",
+    "items": {
+      "inn": {
+        "source": "Investing News Network",
+        "title": "Precious Metals Market News and Analysis from a Global Perspective",
+        "excerpt": "Whether it is gold, silver, platinum or palladium, get the comprehensive coverage you need to navigate the international precious metals markets confidently."
+      },
+      "lbma": {
+        "source": "LBMA",
+        "title": "The Independent Precious Metals Authority",
+        "excerpt": "The LBMA advances standards for the common good of the global industry — the reference for Good Delivery, responsible sourcing and benchmark pricing."
+      }
     }
   },
   "contact": {

@@ -136,13 +136,20 @@
   "news": {
     "eyebrow": "Veille de Marché",
     "title": "Notre Veille de Marché",
-    "intro": "Nous suivons cette source quotidiennement pour évaluer les risques, anticiper la demande et conseiller nos partenaires. L'essentiel est relayé sur notre page LinkedIn.",
+    "intro": "Nous suivons ces sources quotidiennement pour évaluer les risques, anticiper la demande et conseiller nos partenaires. L'essentiel est relayé sur notre page LinkedIn.",
     "readMore": "Consulter la source",
-    "disclaimer": "Veille externe, référencée à titre informatif. Alpha IES Ltd n'est pas affiliée à cet éditeur.",
-    "item": {
-      "source": "Investing News Network",
-      "title": "Actualités et analyses des métaux précieux dans une perspective mondiale",
-      "excerpt": "Or, argent, platine ou palladium : la couverture complète nécessaire pour naviguer avec confiance sur les marchés internationaux des métaux précieux."
+    "disclaimer": "Sources externes, référencées à titre informatif. Alpha IES Ltd n'est affiliée à aucun de ces éditeurs.",
+    "items": {
+      "inn": {
+        "source": "Investing News Network",
+        "title": "Actualités et analyses des métaux précieux dans une perspective mondiale",
+        "excerpt": "Or, argent, platine ou palladium : la couverture complète nécessaire pour naviguer avec confiance sur les marchés internationaux des métaux précieux."
+      },
+      "lbma": {
+        "source": "LBMA",
+        "title": "L'autorité indépendante des métaux précieux",
+        "excerpt": "La LBMA fait progresser les standards dans l'intérêt commun de l'industrie mondiale — la référence en matière de Good Delivery, d'approvisionnement responsable et de prix de référence."
+      }
     }
   },
   "contact": {

@@ -180,5 +180,146 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
     "registration": "Registered in Ireland · Company registration No. {number}"
+  },
+  "legal": {
+    "country": "Ireland",
+    "privacyLink": "Privacy Policy",
+    "backHome": "Home",
+    "notice": {
+      "metaTitle": "Legal Notice",
+      "metaDescription": "Legal notice and publisher information for the Alpha IES Ltd website.",
+      "eyebrow": "Legal information",
+      "title": "Legal Notice",
+      "updated": "Last updated: 5 September 2026",
+      "publisher": {
+        "heading": "Site publisher",
+        "intro": "This website is published by:",
+        "legalForm": "Private company limited by shares incorporated in Ireland",
+        "officeLabel": "Registered office: ",
+        "croLabel": "Company registration number (CRO): ",
+        "placeLabel": "Place of registration: ",
+        "place": "Ireland — {registrar}",
+        "emailLabel": "Email: ",
+        "phoneLabel": "Phone: ",
+        "directorLabel": "Publication director: ",
+        "directorRole": ", Founder & CEO"
+      },
+      "hosting": {
+        "heading": "Hosting",
+        "intro": "The website is hosted by:"
+      },
+      "ip": {
+        "heading": "Intellectual property",
+        "body": "All elements of the website (text, logos, trademarks, images, graphics, layout) are the property of {site} or its partners and are protected by intellectual property law. Any reproduction, representation or distribution, in whole or in part, without prior written consent is prohibited."
+      },
+      "liability": {
+        "heading": "Liability",
+        "body": "{site} strives to ensure the accuracy of the information published on this website but cannot guarantee that it is complete, accurate or up to date. Information is provided for indicative purposes only and does not constitute a contractual offer. {site} shall not be liable for any damage arising from access to or use of the website."
+      },
+      "data": {
+        "heading": "Personal data",
+        "body": "The processing of your personal data is described in our <privacy>Privacy Policy</privacy>."
+      },
+      "law": {
+        "heading": "Governing law",
+        "body": "This website and this legal notice are governed by Irish law. Any dispute shall fall under the jurisdiction of the Irish courts."
+      }
+    },
+    "privacy": {
+      "metaTitle": "Privacy Policy",
+      "metaDescription": "How Alpha IES Ltd collects, uses and protects your personal data.",
+      "eyebrow": "Privacy",
+      "title": "Privacy Policy",
+      "updated": "Last updated: 9 July 2026",
+      "intro": {
+        "heading": "Introduction",
+        "body": "{site} is committed to protecting your personal data. This policy explains what data we collect through this website, why, and what your rights are, in accordance with the General Data Protection Regulation (GDPR) and applicable Irish law."
+      },
+      "controller": {
+        "heading": "Data controller",
+        "body": "The data controller is <b>{site}</b>. For any question regarding your data, contact us at <mail>{email}</mail>."
+      },
+      "collect": {
+        "heading": "Data we collect",
+        "intro": "We only collect the data you voluntarily provide through the contact form, namely:",
+        "items": {
+          "name": "your full name;",
+          "email": "your email address;",
+          "company": "your company name (optional);",
+          "message": "the content of your message."
+        },
+        "outro": "We do not collect any browsing data for advertising purposes and do not use third-party tracking or analytics tools."
+      },
+      "purpose": {
+        "heading": "Purpose and legal basis",
+        "body": "Contact form data is used solely to process and respond to your request. The legal basis for this processing is our legitimate interest in responding to enquiries addressed to us, as well as pre-contractual steps taken at your request."
+      },
+      "recipients": {
+        "heading": "Recipients and processors",
+        "intro": "Your data is never sold or rented. It is accessible to our internal team and to our technical service providers acting as processors:",
+        "resend": "Resend (delivery and routing of contact form emails) — <resend>resend.com</resend>;",
+        "hosting": "our web hosting provider, for the technical operation of the website."
+      },
+      "retention": {
+        "heading": "Data retention",
+        "body": "Messages received through the contact form are kept for as long as necessary to process your request and manage any resulting relationship, then archived or deleted in accordance with our legal obligations."
+      },
+      "cookies": {
+        "heading": "Cookies",
+        "body": "This website does not use advertising or analytics cookies. A strictly functional cookie (“NEXT_LOCALE”) may be stored to remember your language preference. This cookie is necessary for the website to function properly and does not require consent."
+      },
+      "rights": {
+        "heading": "Your rights",
+        "body": "Under the GDPR, you have the following rights over your data: the right to access, rectify, erase, restrict, object to processing, and data portability.",
+        "exercise": "To exercise these rights, contact us at <mail>{email}</mail>. You also have the right to lodge a complaint with the Irish supervisory authority, the <dpc>Data Protection Commission</dpc>, or with the competent authority in your country of residence."
+      },
+      "security": {
+        "heading": "Security",
+        "body": "We implement appropriate technical and organisational measures to protect your data against unauthorised access, alteration or disclosure."
+      },
+      "changes": {
+        "heading": "Changes to this policy",
+        "body": "This policy may be updated at any time. The date of the last update is shown at the top of this page."
+      }
+    },
+    "terms": {
+      "metaTitle": "Terms & Conditions",
+      "metaDescription": "Terms and conditions governing the use of the Alpha IES Ltd website.",
+      "eyebrow": "Terms",
+      "title": "Terms & Conditions",
+      "updated": "Last updated: 9 July 2026",
+      "purpose": {
+        "heading": "Purpose",
+        "body": "These terms and conditions govern access to and use of the {site} website (the “Site”). By accessing the Site, you accept these terms without reservation."
+      },
+      "access": {
+        "heading": "Access to the site",
+        "body": "The Site is accessible free of charge. We endeavour to keep it available but cannot guarantee this. The Site may be interrupted, in particular for maintenance, without incurring any liability on our part."
+      },
+      "content": {
+        "heading": "Content and liability",
+        "body": "The information presented on the Site is provided for general and indicative purposes only. It does not constitute advice, a contractual offer, or a commitment on the part of {site}. Any trading or sourcing operation is subject to separate, specific contractual agreements."
+      },
+      "ip": {
+        "heading": "Intellectual property",
+        "body": "All content on the Site (text, images, logos, trademarks) is protected and remains the property of {site} or its partners. Any unauthorised use is prohibited."
+      },
+      "links": {
+        "heading": "External links",
+        "body": "The Site may contain links to third-party websites. We have no control over these sites and accept no responsibility for their content."
+      },
+      "data": {
+        "heading": "Personal data",
+        "body": "The use of your personal data is governed by our <privacy>Privacy Policy</privacy>."
+      },
+      "law": {
+        "heading": "Governing law",
+        "body": "These terms are governed by Irish law. Any dispute shall fall under the exclusive jurisdiction of the Irish courts."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "For any question regarding these terms, contact us at <mail>{email}</mail>."
+      }
+    }
   }
 }

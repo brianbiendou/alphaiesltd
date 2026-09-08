@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { localePath } from "@/i18n/routing";
 import { LocaleSwitcher } from "./locale-switcher";
 
 const SECTIONS = [
@@ -36,7 +37,7 @@ export function Header() {
     };
   }, [open]);
 
-  const homeHref = locale === "en" ? "/" : `/${locale}`;
+  const homeHref = localePath(locale) || "/";
 
   return (
     <header

@@ -6,7 +6,14 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
 import "../globals.css";
-import { routing } from "@/i18n/routing";
+import {
+  routing,
+  languageAlternates,
+  localePath,
+  OG_LOCALES,
+  LOCALE_TAGS,
+  type Locale,
+} from "@/i18n/routing";
 import { SITE_NAME, SITE_URL, CONTACT, COMPANY } from "@/lib/utils";
 import { JsonLd } from "@/components/seo/json-ld";
 
@@ -33,8 +40,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  const path = locale === routing.defaultLocale ? "/" : `/${locale}`;
-  const url = `${SITE_URL}${path}`;
+  const url = `${SITE_URL}${localePath(locale) || "/"}`;
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -48,11 +54,7 @@ export async function generateMetadata({
     formatDetection: { telephone: true, email: true, address: true },
     alternates: {
       canonical: url,
-      languages: {
-        en: `${SITE_URL}/`,
-        fr: `${SITE_URL}/fr`,
-        "x-default": `${SITE_URL}/`,
-      },
+      languages: languageAlternates(SITE_URL),
     },
     openGraph: {
       type: "website",
@@ -60,7 +62,7 @@ export async function generateMetadata({
       siteName: SITE_NAME,
       title: t("title"),
       description: t("description"),
-      locale: locale === "fr" ? "fr_FR" : "en_US",
+      locale: OG_LOCALES[locale as Locale] ?? OG_LOCALES[routing.defaultLocale],
     },
     twitter: {
       card: "summary_large_image",
@@ -125,7 +127,7 @@ export default async function LocaleLayout({
                   telephone: CONTACT.phone,
                   contactType: "customer support",
                   email: CONTACT.email,
-                  availableLanguage: ["English", "French"],
+                  availableLanguage: ["English", "French", "Spanish"],
                 },
                 identifier: {
                   "@type": "PropertyValue",
@@ -140,7 +142,9 @@ export default async function LocaleLayout({
                 url: SITE_URL,
                 name: SITE_NAME,
                 publisher: { "@id": `${SITE_URL}#organization` },
-                inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+                inLanguage:
+                  LOCALE_TAGS[locale as Locale] ??
+                  LOCALE_TAGS[routing.defaultLocale],
               },
             ],
           }}

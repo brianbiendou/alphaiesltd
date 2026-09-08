@@ -180,5 +180,146 @@
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions Générales",
     "registration": "Société immatriculée en Irlande · N° d'enregistrement {number}"
+  },
+  "legal": {
+    "country": "Irlande",
+    "privacyLink": "Politique de Confidentialité",
+    "backHome": "Accueil",
+    "notice": {
+      "metaTitle": "Mentions légales",
+      "metaDescription": "Mentions légales et informations sur l'éditeur du site Alpha IES Ltd.",
+      "eyebrow": "Informations légales",
+      "title": "Mentions Légales",
+      "updated": "Dernière mise à jour : 5 septembre 2026",
+      "publisher": {
+        "heading": "Éditeur du site",
+        "intro": "Le présent site est édité par :",
+        "legalForm": "Société à responsabilité limitée de droit irlandais (private company limited by shares)",
+        "officeLabel": "Siège social : ",
+        "croLabel": "Numéro d'enregistrement au registre des sociétés (CRO) : ",
+        "placeLabel": "Lieu d'immatriculation : ",
+        "place": "Irlande — {registrar}",
+        "emailLabel": "Email : ",
+        "phoneLabel": "Téléphone : ",
+        "directorLabel": "Directrice de la publication : ",
+        "directorRole": ", Fondatrice et Présidente"
+      },
+      "hosting": {
+        "heading": "Hébergement",
+        "intro": "Le site est hébergé par :"
+      },
+      "ip": {
+        "heading": "Propriété intellectuelle",
+        "body": "L'ensemble des éléments du site (textes, logos, marques, images, graphismes, mise en page) est la propriété de {site} ou de ses partenaires, et est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation ou diffusion, totale ou partielle, sans autorisation écrite préalable est interdite."
+      },
+      "liability": {
+        "heading": "Responsabilité",
+        "body": "{site} s'efforce d'assurer l'exactitude des informations publiées sur ce site, mais ne saurait garantir qu'elles soient exhaustives, précises ou à jour. Les informations sont fournies à titre indicatif et ne constituent pas une offre contractuelle. {site} ne pourra être tenue responsable de tout dommage résultant de l'accès au site ou de son utilisation."
+      },
+      "data": {
+        "heading": "Données personnelles",
+        "body": "Le traitement de vos données personnelles est décrit dans notre <privacy>Politique de Confidentialité</privacy>."
+      },
+      "law": {
+        "heading": "Droit applicable",
+        "body": "Le présent site et les présentes mentions légales sont régis par le droit irlandais. Tout litige relève de la compétence des tribunaux irlandais."
+      }
+    },
+    "privacy": {
+      "metaTitle": "Politique de Confidentialité",
+      "metaDescription": "Comment Alpha IES Ltd collecte, utilise et protège vos données personnelles.",
+      "eyebrow": "Vie privée",
+      "title": "Politique de Confidentialité",
+      "updated": "Dernière mise à jour : 9 juillet 2026",
+      "intro": {
+        "heading": "Introduction",
+        "body": "{site} accorde une grande importance à la protection de vos données personnelles. La présente politique explique quelles données nous collectons via ce site, pourquoi, et quels sont vos droits, conformément au Règlement Général sur la Protection des Données (RGPD) et au droit irlandais applicable."
+      },
+      "controller": {
+        "heading": "Responsable du traitement",
+        "body": "Le responsable du traitement des données est <b>{site}</b>. Pour toute question relative à vos données, contactez-nous à <mail>{email}</mail>."
+      },
+      "collect": {
+        "heading": "Données que nous collectons",
+        "intro": "Nous collectons uniquement les données que vous nous transmettez volontairement via le formulaire de contact, à savoir :",
+        "items": {
+          "name": "votre nom complet ;",
+          "email": "votre adresse email ;",
+          "company": "le nom de votre entreprise (facultatif) ;",
+          "message": "le contenu de votre message."
+        },
+        "outro": "Nous ne collectons aucune donnée de navigation à des fins publicitaires et n'utilisons pas d'outils de suivi (analytics) tiers."
+      },
+      "purpose": {
+        "heading": "Finalités et base légale",
+        "body": "Les données du formulaire de contact sont utilisées exclusivement pour traiter votre demande et y répondre. La base légale de ce traitement est notre intérêt légitime à répondre aux sollicitations qui nous sont adressées, ainsi que les mesures précontractuelles prises à votre demande."
+      },
+      "recipients": {
+        "heading": "Destinataires et sous-traitants",
+        "intro": "Vos données ne sont ni vendues ni louées. Elles sont accessibles à notre équipe interne et à nos prestataires techniques agissant en qualité de sous-traitants :",
+        "resend": "Resend (envoi et acheminement des emails du formulaire de contact) — <resend>resend.com</resend> ;",
+        "hosting": "notre hébergeur web, pour la mise à disposition technique du site."
+      },
+      "retention": {
+        "heading": "Durée de conservation",
+        "body": "Les messages reçus via le formulaire de contact sont conservés le temps nécessaire au traitement de votre demande et à la gestion de la relation qui peut en découler, puis archivés ou supprimés conformément à nos obligations légales."
+      },
+      "cookies": {
+        "heading": "Cookies",
+        "body": "Ce site n'utilise pas de cookies publicitaires ni de cookies de mesure d'audience. Un cookie strictement fonctionnel (« NEXT_LOCALE ») peut être déposé afin de mémoriser votre préférence de langue. Ce cookie est nécessaire au bon fonctionnement du site et ne requiert pas de consentement."
+      },
+      "rights": {
+        "heading": "Vos droits",
+        "body": "Conformément au RGPD, vous disposez des droits suivants sur vos données : droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité.",
+        "exercise": "Pour exercer ces droits, écrivez-nous à <mail>{email}</mail>. Vous avez également le droit d'introduire une réclamation auprès de l'autorité de contrôle irlandaise, la <dpc>Data Protection Commission</dpc>, ou auprès de l'autorité compétente de votre pays de résidence."
+      },
+      "security": {
+        "heading": "Sécurité",
+        "body": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès, altération ou divulgation non autorisés."
+      },
+      "changes": {
+        "heading": "Modifications",
+        "body": "Cette politique peut être mise à jour à tout moment. La date de dernière mise à jour figure en haut de cette page."
+      }
+    },
+    "terms": {
+      "metaTitle": "Conditions Générales d'Utilisation",
+      "metaDescription": "Conditions générales d'utilisation du site Alpha IES Ltd.",
+      "eyebrow": "Conditions",
+      "title": "Conditions Générales d'Utilisation",
+      "updated": "Dernière mise à jour : 9 juillet 2026",
+      "purpose": {
+        "heading": "Objet",
+        "body": "Les présentes conditions générales régissent l'accès et l'utilisation du site {site} (le « Site »). En accédant au Site, vous acceptez sans réserve les présentes conditions."
+      },
+      "access": {
+        "heading": "Accès au site",
+        "body": "Le Site est accessible gratuitement. Nous nous efforçons d'en assurer la disponibilité mais ne pouvons la garantir. Le Site peut être interrompu, notamment pour maintenance, sans que notre responsabilité puisse être engagée."
+      },
+      "content": {
+        "heading": "Contenu et responsabilité",
+        "body": "Les informations présentées sur le Site sont fournies à titre général et indicatif. Elles ne constituent ni un conseil, ni une offre contractuelle, ni un engagement de la part de {site}. Toute opération de négoce ou de sourcing fait l'objet d'accords contractuels distincts et spécifiques."
+      },
+      "ip": {
+        "heading": "Propriété intellectuelle",
+        "body": "Tous les contenus du Site (textes, images, logos, marques) sont protégés et demeurent la propriété de {site} ou de ses partenaires. Toute utilisation non autorisée est interdite."
+      },
+      "links": {
+        "heading": "Liens externes",
+        "body": "Le Site peut contenir des liens vers des sites tiers. Nous n'exerçons aucun contrôle sur ces sites et déclinons toute responsabilité quant à leur contenu."
+      },
+      "data": {
+        "heading": "Données personnelles",
+        "body": "L'utilisation de vos données personnelles est régie par notre <privacy>Politique de Confidentialité</privacy>."
+      },
+      "law": {
+        "heading": "Droit applicable",
+        "body": "Les présentes conditions sont régies par le droit irlandais. Tout litige relève de la compétence exclusive des tribunaux irlandais."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "Pour toute question relative aux présentes conditions, contactez-nous à <mail>{email}</mail>."
+      }
+    }
   }
 }

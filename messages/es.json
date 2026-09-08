@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "Alpha IES Ltd — Comercio y Abastecimiento de Minerales Estratégicos",
+    "description": "Alpha IES Ltd es una empresa de comercio y abastecimiento de minerales estratégicos que conecta el mundo con los recursos estratégicos con integridad, inteligencia y disciplina institucional. Cobre, Cobalto, Tantalita, Litio y Oro.",
+    "keywords": "minerales estratégicos, comercio de minerales, abastecimiento de cobre, abastecimiento de cobalto, tantalita, abastecimiento de litio, comercio de oro, minerales críticos, cadena de suministro, comercio de materias primas, Alpha IES Ltd, Dublín Irlanda"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "services": "Nuestros Servicios",
+    "commodities": "Nuestros Minerales",
+    "markets": "Nuestros Mercados",
+    "sustainability": "Sostenibilidad",
+    "news": "Actualidad",
+    "contact": "Contacto",
+    "cta": "Contáctenos",
+    "menu": "Abrir el menú",
+    "close": "Cerrar el menú"
+  },
+  "hero": {
+    "title": "Impulsando Industrias.<br></br>A Través de <highlight>Minerales<lgbr></lgbr> Estratégicos.</highlight>",
+    "description": "Abastecimiento estratégico y soluciones de comercio internacional para los minerales críticos que impulsan el futuro.",
+    "cta": "Solicitar una Alianza"
+  },
+  "about": {
+    "eyebrow": "Quiénes Somos",
+    "title": "Minerales Estratégicos. Impacto Global.",
+    "missionLabel": "Nuestra Misión",
+    "mission": "Abastecer, comercializar y entregar minerales estratégicos mediante cadenas de suministro seguras, eficientes y responsables, generando valor a largo plazo para nuestros socios.",
+    "visionLabel": "Nuestra Visión",
+    "vision": "Ser un socio global de referencia en el comercio de minerales estratégicos, generando valor sostenible para las naciones, las industrias y las generaciones futuras.",
+    "cta": "Saber Más",
+    "valuesLabel": "Nuestros Valores",
+    "features": {
+      "integrity": {
+        "title": "Integridad",
+        "description": "Actuamos con honestidad y una ética firme."
+      },
+      "partnership": {
+        "title": "Alianza",
+        "description": "Construimos relaciones duraderas."
+      },
+      "responsibility": {
+        "title": "Responsabilidad",
+        "description": "Asumimos nuestros compromisos y rendimos cuentas."
+      },
+      "sustainable": {
+        "title": "Valor Sostenible",
+        "description": "Creamos valor a largo plazo para un futuro mejor."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Nuestros Servicios",
+    "title": "Soluciones Integrales para <highlight>la Cadena de Suministro Mineral</highlight>",
+    "subtitle": "Ofrecemos soluciones integradas que conectan los recursos con las industrias con eficiencia, transparencia y confianza.",
+    "items": {
+      "trading": {
+        "title": "Comercio y Abastecimiento",
+        "description": "Acceso fiable a minerales estratégicos de alta calidad procedentes de fuentes globales de confianza."
+      },
+      "supply": {
+        "title": "Gestión de la Cadena de Suministro",
+        "description": "Soluciones integrales desde el origen hasta el destino, con total transparencia."
+      },
+      "intelligence": {
+        "title": "Inteligencia de Mercado",
+        "description": "Análisis accionables y estudios de mercado para decisiones más inteligentes y basadas en datos."
+      },
+      "risk": {
+        "title": "Gestión de Riesgos",
+        "description": "Identificación proactiva y mitigación de riesgos para proteger el valor y asegurar la continuidad."
+      },
+      "logistics": {
+        "title": "Soluciones Logísticas",
+        "description": "Logística global eficiente y segura para entregas puntuales y rentables."
+      },
+      "financing": {
+        "title": "Soluciones de Financiación",
+        "description": "Estructuras financieras que aseguran las transacciones y desbloquean operaciones para nuestros socios."
+      }
+    }
+  },
+  "commodities": {
+    "eyebrow": "Nuestros Minerales",
+    "title": "Minerales Estratégicos que Comercializamos",
+    "subtitle": "Materias primas críticas que impulsan la transición energética, los vehículos eléctricos, las energías renovables, la electrónica avanzada y la defensa y aeroespacial.",
+    "items": {
+      "copper": "Cobre",
+      "cobalt": "Cobalto",
+      "tantalite": "Tantalita",
+      "lithium": "Litio",
+      "gold": "Oro"
+    },
+    "viewAll": "Ver Todos los Minerales"
+  },
+  "markets": {
+    "eyebrow": "Nuestros Mercados",
+    "title": "Una Presencia Verdaderamente Global",
+    "subtitle": "Operamos en las principales regiones productoras y consumidoras de minerales del mundo.",
+    "regions": {
+      "africa": "África",
+      "europe": "Europa",
+      "northAmerica": "América del Norte",
+      "southAmerica": "América del Sur",
+      "middleEast": "Oriente Medio"
+    }
+  },
+  "why": {
+    "eyebrow": "¿Por Qué Elegir Alpha IES Ltd?",
+    "title": "Su Socio <highlight>Estratégico a Largo Plazo</highlight>",
+    "subtitle": "No solo suministramos minerales: construimos alianzas duraderas basadas en la confianza, la experiencia y el éxito compartido a largo plazo.",
+    "items": {
+      "expertise": {
+        "title": "Experiencia Sectorial",
+        "description": "Años de experiencia en minerales estratégicos."
+      },
+      "partnerships": {
+        "title": "Alianzas Sólidas",
+        "description": "Construimos relaciones duraderas en todo el mundo."
+      },
+      "quality": {
+        "title": "Garantía de Calidad",
+        "description": "Compromiso con los más altos estándares."
+      },
+      "customer": {
+        "title": "Enfoque en el Cliente",
+        "description": "Soluciones a medida para sus necesidades."
+      },
+      "innovation": {
+        "title": "Impulsados por la Innovación",
+        "description": "Estrategias inteligentes para un mundo en cambio."
+      }
+    }
+  },
+  "news": {
+    "eyebrow": "Inteligencia de Mercado",
+    "title": "Nuestra Vigilancia de Mercado",
+    "intro": "Seguimos estas fuentes a diario para evaluar el riesgo, anticipar la demanda y asesorar a nuestros socios. Lo más destacado se comparte en nuestra página de LinkedIn.",
+    "readMore": "Ver la fuente",
+    "disclaimer": "Fuentes externas, enlazadas con fines informativos. Alpha IES Ltd no está afiliada a estos editores.",
+    "items": {
+      "inn": {
+        "source": "Investing News Network",
+        "title": "Noticias y análisis del mercado de metales preciosos desde una perspectiva global",
+        "excerpt": "Oro, plata, platino o paladio: la cobertura completa que necesita para navegar con confianza por los mercados internacionales de metales preciosos."
+      },
+      "lbma": {
+        "source": "LBMA",
+        "title": "La autoridad independiente de los metales preciosos",
+        "excerpt": "La LBMA impulsa los estándares en beneficio común de la industria mundial: la referencia en Good Delivery, abastecimiento responsable y precios de referencia."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Construyamos Algo Duradero.",
+    "subtitle": "Póngase en contacto para hablar de abastecimiento, comercio u oportunidades de alianza.",
+    "address": "Pod 2, The Old Station House, 15a Main Street, Blackrock, A94 T8P8, Co. Dublín, Irlanda",
+    "phone": "+33 7 58 86 71 52",
+    "email": "contact@alphaiesltd.com",
+    "form": {
+      "name": "Nombre completo",
+      "emailLabel": "Correo electrónico",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "Gracias — le responderemos en breve.",
+      "error": "Algo ha ido mal. Vuelva a intentarlo."
+    }
+  },
+  "footer": {
+    "tagline": "Aportando valor en cada paso. Ofreciendo resultados que perduran.",
+    "quickLinks": "Enlaces Rápidos",
+    "company": "Empresa",
+    "contactTitle": "Contáctenos",
+    "followUs": "Síganos",
+    "rights": "© {year} Alpha IES Ltd. Todos los derechos reservados.",
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "registration": "Registrada en Irlanda · N.º de registro de sociedad {number}"
+  },
+  "legal": {
+    "country": "Irlanda",
+    "privacyLink": "Política de Privacidad",
+    "backHome": "Inicio",
+    "notice": {
+      "metaTitle": "Aviso Legal",
+      "metaDescription": "Aviso legal e información sobre el editor del sitio web de Alpha IES Ltd.",
+      "eyebrow": "Información legal",
+      "title": "Aviso Legal",
+      "updated": "Última actualización: 5 de septiembre de 2026",
+      "publisher": {
+        "heading": "Editor del sitio",
+        "intro": "Este sitio web está editado por:",
+        "legalForm": "Sociedad de responsabilidad limitada de derecho irlandés (private company limited by shares)",
+        "officeLabel": "Domicilio social: ",
+        "croLabel": "Número de registro de sociedad (CRO): ",
+        "placeLabel": "Lugar de registro: ",
+        "place": "Irlanda — {registrar}",
+        "emailLabel": "Correo electrónico: ",
+        "phoneLabel": "Teléfono: ",
+        "directorLabel": "Directora de la publicación: ",
+        "directorRole": ", Fundadora y Presidenta"
+      },
+      "hosting": {
+        "heading": "Alojamiento",
+        "intro": "El sitio está alojado por:"
+      },
+      "ip": {
+        "heading": "Propiedad intelectual",
+        "body": "Todos los elementos del sitio web (textos, logotipos, marcas, imágenes, gráficos, maquetación) son propiedad de {site} o de sus socios y están protegidos por el derecho de la propiedad intelectual. Queda prohibida toda reproducción, representación o difusión, total o parcial, sin autorización previa por escrito."
+      },
+      "liability": {
+        "heading": "Responsabilidad",
+        "body": "{site} se esfuerza por garantizar la exactitud de la información publicada en este sitio, pero no puede garantizar que sea exhaustiva, precisa o actualizada. La información se facilita a título indicativo y no constituye una oferta contractual. {site} no será responsable de ningún daño derivado del acceso al sitio o de su uso."
+      },
+      "data": {
+        "heading": "Datos personales",
+        "body": "El tratamiento de sus datos personales se describe en nuestra <privacy>Política de Privacidad</privacy>."
+      },
+      "law": {
+        "heading": "Legislación aplicable",
+        "body": "Este sitio web y el presente aviso legal se rigen por el derecho irlandés. Cualquier litigio será competencia de los tribunales irlandeses."
+      }
+    },
+    "privacy": {
+      "metaTitle": "Política de Privacidad",
+      "metaDescription": "Cómo Alpha IES Ltd recopila, utiliza y protege sus datos personales.",
+      "eyebrow": "Privacidad",
+      "title": "Política de Privacidad",
+      "updated": "Última actualización: 9 de julio de 2026",
+      "intro": {
+        "heading": "Introducción",
+        "body": "{site} concede una gran importancia a la protección de sus datos personales. Esta política explica qué datos recopilamos a través de este sitio web, con qué fines y cuáles son sus derechos, de conformidad con el Reglamento General de Protección de Datos (RGPD) y el derecho irlandés aplicable."
+      },
+      "controller": {
+        "heading": "Responsable del tratamiento",
+        "body": "El responsable del tratamiento de los datos es <b>{site}</b>. Para cualquier consulta relativa a sus datos, contáctenos en <mail>{email}</mail>."
+      },
+      "collect": {
+        "heading": "Datos que recopilamos",
+        "intro": "Solo recopilamos los datos que usted nos facilita voluntariamente a través del formulario de contacto, es decir:",
+        "items": {
+          "name": "su nombre completo;",
+          "email": "su dirección de correo electrónico;",
+          "company": "el nombre de su empresa (opcional);",
+          "message": "el contenido de su mensaje."
+        },
+        "outro": "No recopilamos ningún dato de navegación con fines publicitarios ni utilizamos herramientas de seguimiento o analítica de terceros."
+      },
+      "purpose": {
+        "heading": "Finalidad y base jurídica",
+        "body": "Los datos del formulario de contacto se utilizan exclusivamente para tramitar su solicitud y responder a ella. La base jurídica de este tratamiento es nuestro interés legítimo en responder a las consultas que se nos dirigen, así como las actuaciones precontractuales realizadas a petición suya."
+      },
+      "recipients": {
+        "heading": "Destinatarios y encargados del tratamiento",
+        "intro": "Sus datos nunca se venden ni se alquilan. Son accesibles a nuestro equipo interno y a nuestros proveedores técnicos, que actúan como encargados del tratamiento:",
+        "resend": "Resend (envío y enrutamiento de los correos del formulario de contacto) — <resend>resend.com</resend>;",
+        "hosting": "nuestro proveedor de alojamiento web, para el funcionamiento técnico del sitio."
+      },
+      "retention": {
+        "heading": "Plazo de conservación",
+        "body": "Los mensajes recibidos a través del formulario de contacto se conservan durante el tiempo necesario para tramitar su solicitud y gestionar la relación que pueda derivarse de ella, y después se archivan o se eliminan conforme a nuestras obligaciones legales."
+      },
+      "cookies": {
+        "heading": "Cookies",
+        "body": "Este sitio web no utiliza cookies publicitarias ni cookies de medición de audiencia. Puede almacenarse una cookie estrictamente funcional («NEXT_LOCALE») para recordar su preferencia de idioma. Esta cookie es necesaria para el correcto funcionamiento del sitio y no requiere consentimiento."
+      },
+      "rights": {
+        "heading": "Sus derechos",
+        "body": "De conformidad con el RGPD, usted dispone de los siguientes derechos sobre sus datos: derecho de acceso, rectificación, supresión, limitación, oposición y portabilidad.",
+        "exercise": "Para ejercer estos derechos, escríbanos a <mail>{email}</mail>. También tiene derecho a presentar una reclamación ante la autoridad de control irlandesa, la <dpc>Data Protection Commission</dpc>, o ante la autoridad competente de su país de residencia."
+      },
+      "security": {
+        "heading": "Seguridad",
+        "body": "Aplicamos medidas técnicas y organizativas apropiadas para proteger sus datos frente a accesos, alteraciones o divulgaciones no autorizados."
+      },
+      "changes": {
+        "heading": "Modificaciones",
+        "body": "Esta política puede actualizarse en cualquier momento. La fecha de la última actualización figura en la parte superior de esta página."
+      }
+    },
+    "terms": {
+      "metaTitle": "Términos y Condiciones",
+      "metaDescription": "Términos y condiciones que rigen el uso del sitio web de Alpha IES Ltd.",
+      "eyebrow": "Condiciones",
+      "title": "Términos y Condiciones",
+      "updated": "Última actualización: 9 de julio de 2026",
+      "purpose": {
+        "heading": "Objeto",
+        "body": "Los presentes términos y condiciones rigen el acceso y el uso del sitio web de {site} (el «Sitio»). Al acceder al Sitio, usted acepta sin reservas los presentes términos."
+      },
+      "access": {
+        "heading": "Acceso al sitio",
+        "body": "El Sitio es accesible de forma gratuita. Nos esforzamos por mantener su disponibilidad, pero no podemos garantizarla. El Sitio puede interrumpirse, en particular por motivos de mantenimiento, sin que ello genere responsabilidad alguna por nuestra parte."
+      },
+      "content": {
+        "heading": "Contenido y responsabilidad",
+        "body": "La información presentada en el Sitio se facilita con carácter general e indicativo. No constituye asesoramiento, ni una oferta contractual, ni un compromiso por parte de {site}. Toda operación de comercio o abastecimiento es objeto de acuerdos contractuales específicos e independientes."
+      },
+      "ip": {
+        "heading": "Propiedad intelectual",
+        "body": "Todos los contenidos del Sitio (textos, imágenes, logotipos, marcas) están protegidos y siguen siendo propiedad de {site} o de sus socios. Queda prohibido cualquier uso no autorizado."
+      },
+      "links": {
+        "heading": "Enlaces externos",
+        "body": "El Sitio puede contener enlaces a sitios web de terceros. No ejercemos ningún control sobre dichos sitios y declinamos toda responsabilidad respecto a su contenido."
+      },
+      "data": {
+        "heading": "Datos personales",
+        "body": "El uso de sus datos personales se rige por nuestra <privacy>Política de Privacidad</privacy>."
+      },
+      "law": {
+        "heading": "Legislación aplicable",
+        "body": "Los presentes términos se rigen por el derecho irlandés. Cualquier litigio será competencia exclusiva de los tribunales irlandeses."
+      },
+      "contact": {
+        "heading": "Contacto",
+        "body": "Para cualquier consulta relativa a los presentes términos, contáctenos en <mail>{email}</mail>."
+      }
+    }
+  }
+}

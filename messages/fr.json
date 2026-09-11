@@ -149,6 +149,16 @@
         "source": "LBMA",
         "title": "L'autorité indépendante des métaux précieux",
         "excerpt": "La LBMA fait progresser les standards dans l'intérêt commun de l'industrie mondiale — la référence en matière de Good Delivery, d'approvisionnement responsable et de prix de référence."
+      },
+      "benchmark": {
+        "source": "Benchmark Mineral Intelligence",
+        "title": "Le cuivre au cœur de la transition énergétique",
+        "excerpt": "Prévisions détaillées de l'offre, de la demande, des coûts et des prix du cuivre jusqu'en 2050, enrichies chaque semaine par le suivi de dynamiques de marché en évolution rapide."
+      },
+      "mrf": {
+        "source": "Market Research Future",
+        "title": "Marché mondial de la fonte du cuivre : perspectives 2035",
+        "excerpt": "Étude du marché de la fonte du cuivre : capacités de production, secteurs utilisateurs, applications industrielles et positionnement des principaux producteurs mondiaux."
       }
     }
   },

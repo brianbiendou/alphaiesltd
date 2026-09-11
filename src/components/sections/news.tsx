@@ -27,6 +27,22 @@ const SOURCES = [
     height: 933,
     fit: "cover",
   },
+  {
+    key: "benchmark",
+    href: "https://www.benchmarkminerals.com/copper",
+    image: "/images/news/benchmark-mineral-intelligence.webp",
+    width: 1200,
+    height: 627,
+    fit: "contain",
+  },
+  {
+    key: "mrf",
+    href: "https://www.marketresearchfuture.com/reports/copper-smelting-market-26251",
+    image: "/images/news/market-research-future.webp",
+    width: 840,
+    height: 525,
+    fit: "cover",
+  },
 ] as const;
 
 export function News() {

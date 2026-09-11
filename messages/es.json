@@ -149,6 +149,16 @@
         "source": "LBMA",
         "title": "La autoridad independiente de los metales preciosos",
         "excerpt": "La LBMA impulsa los estándares en beneficio común de la industria mundial: la referencia en Good Delivery, abastecimiento responsable y precios de referencia."
+      },
+      "benchmark": {
+        "source": "Benchmark Mineral Intelligence",
+        "title": "El cobre en el centro de la transición energética",
+        "excerpt": "Previsiones detalladas de oferta, demanda, costes y precios del cobre hasta 2050, enriquecidas cada semana con el seguimiento de dinámicas de mercado en rápida evolución."
+      },
+      "mrf": {
+        "source": "Market Research Future",
+        "title": "Mercado mundial de la fundición de cobre: perspectivas a 2035",
+        "excerpt": "Estudio del mercado de la fundición de cobre: capacidad de producción, sectores usuarios, aplicaciones industriales y posicionamiento de los principales productores mundiales."
       }
     }
   },

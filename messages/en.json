@@ -149,6 +149,16 @@
         "source": "LBMA",
         "title": "The Independent Precious Metals Authority",
         "excerpt": "The LBMA advances standards for the common good of the global industry — the reference for Good Delivery, responsible sourcing and benchmark pricing."
+      },
+      "benchmark": {
+        "source": "Benchmark Mineral Intelligence",
+        "title": "Copper at the Heart of the Energy Transition",
+        "excerpt": "Granular copper supply, demand, cost and price forecasts out to 2050, enriched by weekly updates on fast-moving market dynamics."
+      },
+      "mrf": {
+        "source": "Market Research Future",
+        "title": "Global Copper Smelting Market: Outlook to 2035",
+        "excerpt": "A market study of copper smelting covering capacity outlook, end-user industries, industrial applications and the positioning of the leading global producers."
       }
     }
   },

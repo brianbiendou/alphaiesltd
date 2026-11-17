@@ -34,8 +34,8 @@ export const COMPANY = {
   registrar: "Companies Registration Office (CRO)",
   placeOfRegistration: "Ireland",
   foundingDate: "2025",
-  /** Founder & CEO — also the publication director named in the legal notice. */
-  director: "Elvire Waha Happi",
+  /** Founder & Managing Director — also the publication director named in the legal notice. */
+  director: "Elvire WAHA HAPPI",
 } as const;
 
 /** Hosting provider, disclosed in the legal notice. */
